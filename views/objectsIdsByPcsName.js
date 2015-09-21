@@ -31,7 +31,15 @@ module.exports = (db) => {
     })
     .then((result) => console.log('objectsIdsByPcsName index queried'))
     .catch((error) => {
-      // ignore if doc already exists
-      if (error.status !== 409) console.log(error)
+      if (error.status === 404) {
+        // doc not found when getting
+        db.put(ddoc)
+          .then((response) => {
+            console.log('objectsIdsByPcsName index put')
+            return db.query('objectsIdsByPcsName')
+          })
+          .then((result) => console.log('objectsIdsByPcsName index queried'))
+          .catch((error) => console.log(error))
+      }
     })
 }
