@@ -12,15 +12,15 @@ const ddoc = {
         if (doc.Typ && doc.Typ === 'Objekt') {
           if (doc.Beziehungssammlungen) {
             doc.Beziehungssammlungen.forEach(function (rc) {
-              // add bsZusammenfassend
-              const bsZusammenfassend = !!rc.zusammenfassend
+              // add rcCombining
+              const rcCombining = !!rc.zusammenfassend
               var felder = {}
               Object.keys(rc).forEach(function (key) {
                 if (key !== 'Typ' && key !== 'Name' && key !== 'Eigenschaften') {
                   felder[key] = rc[key]
                 }
               })
-              emit([rc.Name, bsZusammenfassend, rc['importiert von'], felder], null)
+              emit([rc.Name, rcCombining, rc['importiert von'], felder], null)
             })
           }
         }
@@ -31,7 +31,9 @@ const ddoc = {
 }
 
 module.exports = (db) => {
-  db.put(ddoc)
+  db.get('_design/rcs')
+    .then((doc) => db.remove(doc))
+    .then(() => db.put(ddoc))
     .then((response) => {
       console.log('rcs index put')
       return db.query('rcs')

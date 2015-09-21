@@ -31,7 +31,9 @@ const ddoc = {
 }
 
 module.exports = (db) => {
-  db.put(ddoc)
+  db.get('_design/pcs')
+    .then((doc) => db.remove(doc))
+    .then(() => db.put(ddoc))
     .then((response) => {
       console.log('pcs index put')
       return db.query('pcs')

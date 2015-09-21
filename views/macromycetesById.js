@@ -18,7 +18,9 @@ const ddoc = {
 }
 
 module.exports = (db) => {
-  db.put(ddoc)
+  db.get('_design/macromycetesById')
+    .then((doc) => db.remove(doc))
+    .then(() => db.put(ddoc))
     .then((response) => {
       console.log('macromycetesById index put')
       return db.query('macromycetesById')

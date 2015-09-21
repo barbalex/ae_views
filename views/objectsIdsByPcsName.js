@@ -22,7 +22,9 @@ const ddoc = {
 }
 
 module.exports = (db) => {
-  db.put(ddoc)
+  db.get('_design/objectsIdsByPcsName')
+    .then((doc) => db.remove(doc))
+    .then(() => db.put(ddoc))
     .then((response) => {
       console.log('objectsIdsByPcsName index put')
       return db.query('objectsIdsByPcsName')

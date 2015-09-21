@@ -14,8 +14,6 @@ const objectsIdsByRcsName = require('./views/objectsIdsByRcsName.js')
 
 const couchUrl = `http://${couchPass.user}:${couchPass.pass}@127.0.0.1:5984/artendb`
 
-console.log('couchUrl', couchUrl)
-
 const db = new PouchDB(couchUrl, () => {
   pcs(db)
   rcs(db)
