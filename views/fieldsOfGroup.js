@@ -10,8 +10,9 @@ const ddoc = {
     'fieldsOfGroup': {
       map: function (doc) {
         if (doc.Gruppe && doc.Typ && doc.Typ === 'Objekt') {
-          if (doc.Taxonomien && doc.Taxonomien[0] && doc.Taxonomien[0].Eigenschaften) {
-            var eigenschaften = doc.Taxonomien[0].Eigenschaften
+          const standardtaxonomie = doc.Taxonomien.find((taxonomy) => taxonomy['Standardtaxonomie'])
+          if (doc.Taxonomien && standardtaxonomie && standardtaxonomie.Eigenschaften) {
+            var eigenschaften = standardtaxonomie.Eigenschaften
             Object.keys(eigenschaften).forEach(function (feldname) {
               var feldwert = eigenschaften[feldname]
               emit([doc.Gruppe, 'taxonomy', doc.Taxonomie.Name, feldname, typeof feldwert], doc._id)

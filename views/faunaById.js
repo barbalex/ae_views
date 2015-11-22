@@ -10,7 +10,8 @@ const ddoc = {
     'faunaById': {
       map: function (doc) {
         if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === 'Fauna') {
-          emit(doc.Taxonomien[0].Eigenschaften['Taxonomie ID'], null)
+          const standardtaxonomie = doc.Taxonomien.find((taxonomy) => taxonomy['Standardtaxonomie'])
+          if (standardtaxonomie) emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
         }
       }.toString()
     }
