@@ -9,20 +9,18 @@ const ddoc = {
   views: {
     'pcs': {
       map: function (doc) {
-        if (doc.Typ && doc.Typ === 'Objekt') {
-          if (doc.Eigenschaftensammlungen) {
-            doc.Eigenschaftensammlungen.forEach(function (pc) {
-              // add pcZusammenfassend
-              const pcZusammenfassend = !!pc.zusammenfassend
-              var felder = {}
-              Object.keys(pc).forEach(function (key) {
-                if (key !== 'Typ' && key !== 'Name' && key !== 'Eigenschaften') {
-                  felder[key] = pc[key]
-                }
-              })
-              emit([pc.Name, pcZusammenfassend, pc['importiert von'], felder], null)
+        if (doc.Typ && doc.Typ === 'Objekt' && doc.Eigenschaftensammlungen) {
+          doc.Eigenschaftensammlungen.forEach((pc) => {
+            // add pcZusammenfassend
+            const pcZusammenfassend = !!pc.zusammenfassend
+            let felder = {}
+            Object.keys(pc).forEach((key) => {
+              if (key !== 'Typ' && key !== 'Name' && key !== 'Eigenschaften') {
+                felder[key] = pc[key]
+              }
             })
-          }
+            emit([pc.Name, pcZusammenfassend, pc['importiert von'], felder], null)
+          })
         }
       }.toString(),
       reduce: '_count'

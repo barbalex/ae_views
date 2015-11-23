@@ -9,20 +9,18 @@ const ddoc = {
   views: {
     'rcs': {
       map: function (doc) {
-        if (doc.Typ && doc.Typ === 'Objekt') {
-          if (doc.Beziehungssammlungen) {
-            doc.Beziehungssammlungen.forEach(function (rc) {
-              // add rcCombining
-              const rcCombining = !!rc.zusammenfassend
-              var felder = {}
-              Object.keys(rc).forEach(function (key) {
-                if (key !== 'Typ' && key !== 'Name' && key !== 'Eigenschaften') {
-                  felder[key] = rc[key]
-                }
-              })
-              emit([rc.Name, rcCombining, rc['importiert von'], felder], null)
+        if (doc.Typ && doc.Typ === 'Objekt' && doc.Beziehungssammlungen) {
+          doc.Beziehungssammlungen.forEach((rc) => {
+            // add rcCombining
+            const rcCombining = !!rc.zusammenfassend
+            let felder = {}
+            Object.keys(rc).forEach((key) => {
+              if (key !== 'Typ' && key !== 'Name' && key !== 'Eigenschaften') {
+                felder[key] = rc[key]
+              }
             })
-          }
+            emit([rc.Name, rcCombining, rc['importiert von'], felder], null)
+          })
         }
       }.toString(),
       reduce: '_count'

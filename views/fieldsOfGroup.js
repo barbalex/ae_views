@@ -11,20 +11,20 @@ const ddoc = {
       map: function (doc) {
         if (doc.Gruppe && doc.Typ && doc.Typ === 'Objekt' && doc.Taxonomien) {
           const standardtaxonomie = doc.Taxonomien.find((taxonomy) => taxonomy['Standardtaxonomie'])
-          if (doc.Taxonomien && standardtaxonomie && standardtaxonomie.Eigenschaften) {
-            var eigenschaften = standardtaxonomie.Eigenschaften
-            Object.keys(eigenschaften).forEach(function (feldname) {
-              var feldwert = eigenschaften[feldname]
+          if (standardtaxonomie && standardtaxonomie.Eigenschaften) {
+            const eigenschaften = standardtaxonomie.Eigenschaften
+            Object.keys(eigenschaften).forEach((feldname) => {
+              const feldwert = eigenschaften[feldname]
               emit([doc.Gruppe, 'taxonomy', doc.Taxonomie.Name, feldname, typeof feldwert], doc._id)
             })
           }
 
           if (doc.Eigenschaftensammlungen) {
-            doc.Eigenschaftensammlungen.forEach(function (pc) {
+            doc.Eigenschaftensammlungen.forEach((pc) => {
               if (pc.Eigenschaften) {
-                var eigenschaften = pc.Eigenschaften
-                Object.keys(eigenschaften).forEach(function (feldname) {
-                  var feldwert = eigenschaften[feldname]
+                const eigenschaften = pc.Eigenschaften
+                Object.keys(eigenschaften).forEach((feldname) => {
+                  const feldwert = eigenschaften[feldname]
                   emit([doc.Gruppe, 'propertyCollection', pc.Name, feldname, typeof feldwert], doc._id)
                 })
               }
@@ -32,11 +32,11 @@ const ddoc = {
           }
 
           if (doc.Beziehungssammlungen && doc.Beziehungssammlungen.length > 0) {
-            doc.Beziehungssammlungen.forEach(function (beziehungssammlung) {
+            doc.Beziehungssammlungen.forEach((beziehungssammlung) => {
               if (beziehungssammlung.Beziehungen && beziehungssammlung.Beziehungen.length > 0) {
-                beziehungssammlung.Beziehungen.forEach(function (beziehung) {
-                  Object.keys(beziehung).forEach(function (feldname) {
-                    var feldwert = beziehung[feldname]
+                beziehungssammlung.Beziehungen.forEach((beziehung) => {
+                  Object.keys(beziehung).forEach((feldname) => {
+                    const feldwert = beziehung[feldname]
                     // irgendwie liefert dieser Loop auch Zahlen, die aussehen als wären sie die keys eines Arrays. Ausschliessen
                     if (isNaN(parseInt(feldname, 10))) {
                       // jetzt loopen wir durch die Daten der Beziehung
@@ -47,7 +47,6 @@ const ddoc = {
               }
             })
           }
-
         }
       }.toString(),
       reduce: '_count'
