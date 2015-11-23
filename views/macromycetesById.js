@@ -9,7 +9,7 @@ const ddoc = {
   views: {
     'macromycetesById': {
       map: function (doc) {
-        if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === 'Macromycetes') {
+        if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === 'Macromycetes' && doc.Taxonomien) {
           const standardtaxonomie = doc.Taxonomien.find((taxonomy) => taxonomy['Standardtaxonomie'])
           if (standardtaxonomie) emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
         }

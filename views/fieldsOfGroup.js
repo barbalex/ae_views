@@ -9,7 +9,7 @@ const ddoc = {
   views: {
     'fieldsOfGroup': {
       map: function (doc) {
-        if (doc.Gruppe && doc.Typ && doc.Typ === 'Objekt') {
+        if (doc.Gruppe && doc.Typ && doc.Typ === 'Objekt' && doc.Taxonomien) {
           const standardtaxonomie = doc.Taxonomien.find((taxonomy) => taxonomy['Standardtaxonomie'])
           if (doc.Taxonomien && standardtaxonomie && standardtaxonomie.Eigenschaften) {
             var eigenschaften = standardtaxonomie.Eigenschaften

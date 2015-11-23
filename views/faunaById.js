@@ -9,7 +9,7 @@ const ddoc = {
   views: {
     'faunaById': {
       map: function (doc) {
-        if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === 'Fauna') {
+        if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === 'Fauna' && doc.Taxonomien) {
           const standardtaxonomie = doc.Taxonomien.find((taxonomy) => taxonomy['Standardtaxonomie'])
           if (standardtaxonomie) emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
         }
