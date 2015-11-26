@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "standard"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pouchdb": "4.0.3"
+    "pouchdb": "4.0.3",
+    "standard": "^5.4.1"
   }
 }

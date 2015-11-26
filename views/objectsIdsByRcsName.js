@@ -11,7 +11,7 @@ const ddoc = {
       map: function (doc) {
         if (doc.Typ && doc.Typ === 'Objekt' && doc.Beziehungssammlungen) {
           doc.Beziehungssammlungen.forEach(function (rc) {
-            emit(rc.Name, doc._id)
+            window.emit(rc.Name, doc._id)
           })
         }
       }.toString()
