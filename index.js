@@ -13,6 +13,7 @@ const mooseById = require('./views/mooseById.js')
 const objectsIdsByPcsName = require('./views/objectsIdsByPcsName.js')
 const objectsIdsByRcsName = require('./views/objectsIdsByRcsName.js')
 const objects = require('./views/objects.js')
+const organizations = require('./views/organizations.js')
 
 const couchUrl = `http://${couchPass.user}:${couchPass.pass}@127.0.0.1:5984/ae`
 // const couchUrl = `http://${couchPass.user}:${couchPass.pass}@46.101.210.208:5984/ae`
@@ -20,6 +21,7 @@ const couchUrl = `http://${couchPass.user}:${couchPass.pass}@127.0.0.1:5984/ae`
 const db = new PouchDB(couchUrl, () => {
   artendb(db)
   objects(db)
+  organizations(db)
   pcs(db)
   rcs(db)
   faunaById(db)
