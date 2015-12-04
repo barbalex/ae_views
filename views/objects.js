@@ -10,7 +10,7 @@ const ddoc = {
     'objects': {
       map: function (doc) {
         if (doc.Typ && doc.Typ === 'Objekt') {
-          window.emit(doc._id, null)
+          emit(doc._id, null)
         }
       }.toString()
     }

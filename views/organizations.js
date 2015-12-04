@@ -10,7 +10,7 @@ const ddoc = {
     'organizations': {
       map: function (doc) {
         if (doc.Typ && doc.Typ === 'Organisation') {
-          window.emit(doc._id, null)
+          emit(doc._id, null)
         }
       }.toString()
     }
