@@ -2,6 +2,7 @@
 
 const PouchDB = require('pouchdb')
 const couchPass = require('./couchPass.json')
+const tax = require('./views/tax.js')
 const pcs = require('./views/pcs.js')
 const rcs = require('./views/rcs.js')
 const faunaById = require('./views/faunaById.js')
@@ -22,6 +23,7 @@ const db = new PouchDB(couchUrl, () => {
   artendb(db)
   objects(db)
   organizations(db)
+  tax(db)
   pcs(db)
   rcs(db)
   faunaById(db)
