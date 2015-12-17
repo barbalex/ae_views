@@ -10,16 +10,16 @@ const ddoc = {
     'tax': {
       map: function (doc) {
         if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Taxonomien) {
-          doc.Taxonomien.forEach(function (taxCol) {
+          doc.Taxonomien.forEach(function (tc) {
             // add pcZusammenfassend
-            var standard = !!taxCol.Standardtaxonomie
+            var standard = !!tc.Standardtaxonomie
             var felder = {}
-            Object.keys(taxCol).forEach(function (key) {
+            Object.keys(tc).forEach(function (key) {
               if (key !== 'Name' && key !== 'Eigenschaften') {
-                felder[key] = taxCol[key]
+                felder[key] = tc[key]
               }
             })
-            emit([doc.Gruppe, standard, taxCol.Name, taxCol['Organisation mit Schreibrecht'], felder], null)
+            emit([doc.Gruppe, standard, tc.Name, tc['Organisation mit Schreibrecht'], felder], null)
           })
         }
       }.toString(),
