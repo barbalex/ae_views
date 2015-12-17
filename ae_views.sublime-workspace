@@ -1,0 +1,340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"coll",
+				"collection"
+			],
+			[
+				"cre",
+				"createStore"
+			],
+			[
+				"getPcs",
+				"getPcsOfOrganization"
+			],
+			[
+				"propert",
+				"propertyCollectionsStore"
+			],
+			[
+				"get",
+				"getRolesOfUser"
+			],
+			[
+				"org",
+				"organization"
+			],
+			[
+				"isuser",
+				"isUserEsWriter"
+			],
+			[
+				"isUser",
+				"isUserOrgAdmin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 223.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/alex/ae_views"
+	],
+	"file_history":
+	[
+		"/C/Users/alex/ae/src/components/main/object/pcDescription.js",
+		"/C/Users/alex/ae/src/components/main/export/panel2/pcDescription.js",
+		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsPCs.js",
+		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsPCsPanel.js",
+		"/C/Users/alex/ae/src/components/main/export/panel2/infoButtonAfter.js",
+		"/C/Users/alex/ae/src/components/main/export/panel2/selectComparisonOperator.js",
+		"/C/Users/alex/ae/src/queries/rcs.js",
+		"/C/Users/alex/ae/src/queries/pcs.js",
+		"/C/Users/alex/ae/src/actions.js",
+		"/C/Users/alex/ae/src/components/main/importRc/importRc.js",
+		"/C/Users/alex/ae/src/components/main/importPc/importPc.js",
+		"/C/Users/alex/ae/src/components/main/importPc/panel1/panel1.js",
+		"/C/Users/alex/ae/src/components/main/importPc/panel1/buttonDeletePc/buttonDeletePc.js",
+		"/C/Users/alex/ae/src/components/main/importRc/panel1/buttonDeleteRc/buttonDeleteRc.js",
+		"/C/Users/alex/ae/src/components/home.js",
+		"/C/Users/alex/ae/src/stores.js",
+		"/C/Users/alex/ae/src/components/main/organizations/organizations.js",
+		"/C/Users/alex/ae/src/components/main/organizations/collectionList.js",
+		"/C/Users/alex/ae/src/components/main/organizations/usersList.js",
+		"/C/Users/alex/ae/src/components/main/main.js",
+		"/C/Users/alex/ae/src/components/main/login/login.js",
+		"/C/Users/alex/ae/src/modules/refreshUserRoles.js",
+		"/C/Users/alex/ae/src/app.js",
+		"/C/Users/alex/ae/src/components/main/organizations/doesUserExist.js",
+		"/C/Users/alex/ae/src/components/main/organizations/getRolesOfUser.js",
+		"/C/Users/alex/ae/src/components/symbols/email.js",
+		"/C/Users/alex/ae/src/components/main/organizations/addRolesToUser.js",
+		"/C/Users/alex/ae/src/router.js",
+		"/C/Users/alex/ae/webpack.config.js",
+		"/C/Users/alex/ae/src/components/main/importRc/panel1/alertEditingRcDisallowed.js",
+		"/C/Users/alex/ae/src/components/main/importPc/panel1/alertEditingPcDisallowed.js",
+		"/C/Users/alex/ae/src/components/main/importRc/panel1/inputNameBestehend.js",
+		"/C/Users/alex/ae/src/components/main/importRc/panel1/panel1.js",
+		"/C/Users/alex/ae/src/components/main/importPc/panel1/inputName.js",
+		"/C/Users/alex/ae/src/components/main/importRc/panel1/inputName.js",
+		"/C/Users/alex/ae/src/components/main/importPc/panel1/inputNameBestehend.js",
+		"/C/Users/alex/ae/src/modules/isUserLrWriterAnywhere.js",
+		"/C/Users/alex/ae/src/modules/isUserLrWriter.js",
+		"/C/Users/alex/ae/src/modules/isUserEsWriter.js",
+		"/C/Users/alex/ae/src/modules/isUserOrgAdmin.js",
+		"/C/Users/alex/ae/src/modules/isUserTaxWriter.js",
+		"/C/Users/alex/ae/src/modules/isUserServerAdmin.js",
+		"/C/Users/alex/ae/src/components/main/importPc/panel1/inputOrgMitSchreibrecht.js",
+		"/C/Users/alex/ae/src/components/main/importPc/panel1/inputNutzungsbedingungen.js",
+		"/C/Users/alex/ae/src/components/main/export/panel4/panel4.js",
+		"/C/Users/alex/ae/src/components/main/organizations/organizationDocTemplate.js",
+		"/C/Users/alex/ae/server.js",
+		"/C/Users/alex/ae/src/components/navHelper.js",
+		"/C/Users/alex/ae/ae.sublime-project",
+		"/C/Users/alex/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/alex/ae/npm-debug.log",
+		"/C/Users/alex/ae/src/modules/getCouchUrl.js",
+		"/C/Users/alex/ae/package.json"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"C:\\Users\\alex\\ae",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"pc",
+			"Eigenschaftensammlungen",
+			"pcs",
+			"PcDescription.js, pc",
+			"Datensammlung beschreibungDatensammlung",
+			"', pc",
+			"pcsOfOrganizationStore, getPcsOfOrganization, pcsOfOrg",
+			"pcsOfOrganizationStore, getPcsOfOrganization, pcsOfOrg ",
+			"rcsOfOrganizationStore, getRcsOfOrganization, rcsOfOrg",
+			"importedBy",
+			"importiertVon",
+			"importedBy",
+			"importRcs",
+			"importPcs",
+			"importedBy",
+			"pcsOfOrganization",
+			"getPcsOfOrganization",
+			"pcs",
+			"activeOrganization",
+			"orgNamesWhereUserIsAdmin",
+			"orgValues",
+			"activeOrganization",
+			"onChangeActiveOrganization",
+			"activeOrganization",
+			"onChangeActiveOrganization",
+			"getPcsOfOrganization",
+			"pcsOfOrt",
+			"pcsOfOrganization",
+			"getPcsOfOrganization",
+			"doesUserExist",
+			"axios",
+			"catch((error)",
+			"getRolesOfUser",
+			"axios",
+			"onBlurName",
+			"isEditingPcAllowed",
+			"esBearbeitenErlaubt",
+			"isUserServerAdmin",
+			"alertNotEsWriter",
+			"organisation",
+			"organization",
+			"organisation",
+			"esWriterRole",
+			"taxWriterRole",
+			"userIsEsWriterInOrgs",
+			"InputNameBestehend",
+			"userRoles",
+			"localStorage.admin",
+			"orgMitSchreibrecht",
+			"userIsEsWriterInOrgs",
+			"orgMitSchreibrecht",
+			"validOrgMitSchreibrecht",
+			"userIsEsWriterInOrgs",
+			"onChangeOrgMitSchreibrecht",
+			"queryPcs",
+			"propertyCollectionsStore",
+			"onChangeNameBestehend",
+			"building export data",
+			"^",
+			"eslint",
+			"jshint",
+			"jslint",
+			"standard",
+			"preventDefault"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"taxCol",
+			"Taxonomien",
+			"tax",
+			"rcs",
+			"organization",
+			"lrWriterRole",
+			"esWriterRole",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ae_views.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
