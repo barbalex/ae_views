@@ -5,9 +5,9 @@
 'use strict'
 
 const ddoc = {
-  _id: '_design/tax',
+  _id: '_design/tcs',
   views: {
-    'tax': {
+    'tcs': {
       map: function (doc) {
         if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Taxonomien) {
           doc.Taxonomien.forEach(function (tc) {
@@ -29,23 +29,23 @@ const ddoc = {
 }
 
 module.exports = (db) => {
-  db.get('_design/tax')
+  db.get('_design/tcs')
     .then((doc) => db.remove(doc))
     .then(() => db.put(ddoc))
     .then((response) => {
-      console.log('tax index put')
-      return db.query('tax')
+      console.log('tcs index put')
+      return db.query('tcs')
     })
-    .then((result) => console.log('tax index queried'))
+    .then((result) => console.log('tcs index queried'))
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(ddoc)
           .then((response) => {
-            console.log('tax index put')
-            return db.query('tax')
+            console.log('tcs index put')
+            return db.query('tcs')
           })
-          .then((result) => console.log('tax index queried'))
+          .then((result) => console.log('tcs index queried'))
           .catch((error) => console.log(error))
       }
     })
