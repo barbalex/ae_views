@@ -39,6 +39,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1206,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/tcs.js",
+			"settings":
+			{
+				"buffer_size": 1401,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/pcs.js",
+			"settings":
+			{
+				"buffer_size": 1434,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -85,7 +109,8 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/alex/ae_views"
+		"/C/Users/alex/ae_views",
+		"/C/Users/alex/ae_views/views"
 	],
 	"file_history":
 	[
@@ -161,6 +186,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"tax",
+			"taxCol",
+			"pcs",
 			"pc",
 			"Eigenschaftensammlungen",
 			"pcs",
@@ -232,6 +260,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"tcs",
+			"tc",
+			"tax",
 			"taxCol",
 			"Taxonomien",
 			"tax",
@@ -250,8 +281,99 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								995,
+								995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/tcs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1035,
+								1035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/pcs.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -294,7 +416,7 @@
 	"project": "ae_views.sublime-project",
 	"replace":
 	{
-		"height": 76.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
