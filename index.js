@@ -15,6 +15,7 @@ const objectsIdsByPcsName = require('./views/objectsIdsByPcsName.js')
 const objectsIdsByRcsName = require('./views/objectsIdsByRcsName.js')
 const objects = require('./views/objects.js')
 const organizations = require('./views/organizations.js')
+const groupFilter = require('./filters/groupFilter.js')
 
 const couchUrl = `http://${couchPass.user}:${couchPass.pass}@127.0.0.1:5984/artendb`
 // const couchUrl = `http://${couchPass.user}:${couchPass.pass}@46.101.210.208:5984/artendb`
@@ -33,4 +34,5 @@ const db = new PouchDB(couchUrl, () => {
   mooseById(db)
   objectsIdsByPcsName(db)
   objectsIdsByRcsName(db)
+  groupFilter(db)
 })
