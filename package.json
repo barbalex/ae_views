@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pouchdb": "5.2.0",
-    "standard": "^5.4.1"
+    "pouchdb": "5.2.1",
+    "standard": "^6.0.7"
   },
   "repository": {
       "type": "git",
