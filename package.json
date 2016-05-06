@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pouchdb": "5.3.0",
-    "standard": "^6.0.7"
+    "pouchdb": "^5.3.2",
+    "standard": "^7.0.1"
   },
   "repository": {
-      "type": "git",
-      "url": "git://github.com/barbalex/ae_views.git"
+    "type": "git",
+    "url": "git://github.com/barbalex/ae_views.git"
   }
 }
