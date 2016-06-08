@@ -7,8 +7,13 @@
 const ddoc = {
   _id: '_design/groupFilter',
   filters: {
-    'groupFilter': function (doc, req) {
-      return doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === req.query.type
+    groupFilter: function groupFilter(doc, req) {
+      return (
+        doc.Typ &&
+        doc.Typ === 'Objekt' &&
+        doc.Gruppe &&
+        doc.Gruppe === req.query.type
+      )
     }.toString()
   }
 }
@@ -18,17 +23,17 @@ module.exports = (db) => {
     // remove existing filter doc
     .then((doc) => db.remove(doc))
     .then(() => db.put(ddoc))
-    .then((response) => {
+    .then(() => {
       console.log('group filter put')
     })
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(ddoc)
-          .then((response) => {
+          .then(() => {
             console.log('group filter put')
           })
-          .catch((error) => console.log(error))
+          .catch((err) => console.log(err))
       }
     })
 }
