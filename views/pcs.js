@@ -7,15 +7,23 @@
 const ddoc = {
   _id: '_design/pcs',
   views: {
-    'pcs': {
+    pcs: {
       map: function (doc) {
-        if (doc.Typ && doc.Typ === 'Objekt' && doc.Eigenschaftensammlungen) {
+        if (
+          doc.Typ &&
+          doc.Typ === 'Objekt' &&
+          doc.Eigenschaftensammlungen
+        ) {
           doc.Eigenschaftensammlungen.forEach(function (pc) {
             // add pcZusammenfassend
             var pcZusammenfassend = !!pc.zusammenfassend
             var felder = {}
             Object.keys(pc).forEach(function (key) {
-              if (key !== 'Typ' && key !== 'Name' && key !== 'Eigenschaften') {
+              if (
+                key !== 'Typ' &&
+                key !== 'Name' &&
+                key !== 'Eigenschaften'
+              ) {
                 felder[key] = pc[key]
               }
             })
@@ -32,21 +40,21 @@ module.exports = (db) => {
   db.get('_design/pcs')
     .then((doc) => db.remove(doc))
     .then(() => db.put(ddoc))
-    .then((response) => {
+    .then(() => {
       console.log('pcs index put')
       return db.query('pcs')
     })
-    .then((result) => console.log('pcs index queried'))
+    .then(() => console.log('pcs index queried'))
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(ddoc)
-          .then((response) => {
+          .then(() => {
             console.log('pcs index put')
             return db.query('pcs')
           })
-          .then((result) => console.log('pcs index queried'))
-          .catch((error) => console.log(error))
+          .then(() => console.log('pcs index queried'))
+          .catch((err) => console.log(err))
       }
     })
 }
