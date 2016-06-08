@@ -7,18 +7,28 @@
 const ddoc = {
   _id: '_design/mooseById',
   views: {
-    'mooseById': {
+    mooseById: {
       map: function (doc) {
-        function findStandardTaxonomyInDoc (doc) {
+        function findStandardTaxonomyInDoc(dc) {
           var standardtaxonomie = null
-          doc.Taxonomien.forEach(function (taxonomy) {
-            if (taxonomy.Standardtaxonomie) standardtaxonomie = taxonomy
+          dc.Taxonomien.forEach(function (taxonomy) {
+            if (taxonomy.Standardtaxonomie) {
+              standardtaxonomie = taxonomy
+            }
           })
           return standardtaxonomie
         }
-        if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === 'Moose' && doc.Taxonomien) {
+        if (
+          doc.Typ &&
+          doc.Typ === 'Objekt' &&
+          doc.Gruppe &&
+          doc.Gruppe === 'Moose' &&
+          doc.Taxonomien
+        ) {
           var standardtaxonomie = findStandardTaxonomyInDoc(doc)
-          if (standardtaxonomie) emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
+          if (standardtaxonomie) {
+            emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
+          }
         }
       }.toString()
     }
@@ -29,21 +39,21 @@ module.exports = (db) => {
   db.get('_design/mooseById')
     .then((doc) => db.remove(doc))
     .then(() => db.put(ddoc))
-    .then((response) => {
+    .then(() => {
       console.log('mooseById index put')
       return db.query('mooseById')
     })
-    .then((result) => console.log('mooseById index queried'))
+    .then(() => console.log('mooseById index queried'))
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(ddoc)
-          .then((response) => {
+          .then(() => {
             console.log('mooseById index put')
             return db.query('mooseById')
           })
-          .then((result) => console.log('mooseById index queried'))
-          .catch((error) => console.log(error))
+          .then(() => console.log('mooseById index queried'))
+          .catch((err) => console.log(err))
       }
     })
 }
