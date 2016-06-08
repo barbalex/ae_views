@@ -7,9 +7,13 @@
 const ddoc = {
   _id: '_design/objectsIdsByPcsName',
   views: {
-    'objectsIdsByPcsName': {
+    objectsIdsByPcsName: {
       map: function (doc) {
-        if (doc.Typ && doc.Typ === 'Objekt' && doc.Eigenschaftensammlungen) {
+        if (
+          doc.Typ &&
+          doc.Typ === 'Objekt' &&
+          doc.Eigenschaftensammlungen
+        ) {
           doc.Eigenschaftensammlungen.forEach(function (es) {
             emit(es.Name, doc._id)
           })
@@ -23,21 +27,21 @@ module.exports = (db) => {
   db.get('_design/objectsIdsByPcsName')
     .then((doc) => db.remove(doc))
     .then(() => db.put(ddoc))
-    .then((response) => {
+    .then(() => {
       console.log('objectsIdsByPcsName index put')
       return db.query('objectsIdsByPcsName')
     })
-    .then((result) => console.log('objectsIdsByPcsName index queried'))
+    .then(() => console.log('objectsIdsByPcsName index queried'))
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(ddoc)
-          .then((response) => {
+          .then(() => {
             console.log('objectsIdsByPcsName index put')
             return db.query('objectsIdsByPcsName')
           })
-          .then((result) => console.log('objectsIdsByPcsName index queried'))
-          .catch((error) => console.log(error))
+          .then(() => console.log('objectsIdsByPcsName index queried'))
+          .catch((err) => console.log(err))
       }
     })
 }
