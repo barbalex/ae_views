@@ -7,15 +7,23 @@
 const ddoc = {
   _id: '_design/tcs',
   views: {
-    'tcs': {
+    tcs: {
       map: function (doc) {
-        if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Taxonomien) {
+        if (
+          doc.Typ &&
+          doc.Typ === 'Objekt' &&
+          doc.Gruppe &&
+          doc.Taxonomien
+        ) {
           doc.Taxonomien.forEach(function (tc) {
             // add pcZusammenfassend
             var standard = !!tc.Standardtaxonomie
             var felder = {}
             Object.keys(tc).forEach(function (key) {
-              if (key !== 'Name' && key !== 'Eigenschaften') {
+              if (
+                key !== 'Name' &&
+                key !== 'Eigenschaften'
+              ) {
                 felder[key] = tc[key]
               }
             })
@@ -32,21 +40,21 @@ module.exports = (db) => {
   db.get('_design/tcs')
     .then((doc) => db.remove(doc))
     .then(() => db.put(ddoc))
-    .then((response) => {
+    .then(() => {
       console.log('tcs index put')
       return db.query('tcs')
     })
-    .then((result) => console.log('tcs index queried'))
+    .then(() => console.log('tcs index queried'))
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(ddoc)
-          .then((response) => {
+          .then(() => {
             console.log('tcs index put')
             return db.query('tcs')
           })
-          .then((result) => console.log('tcs index queried'))
-          .catch((error) => console.log(error))
+          .then(() => console.log('tcs index queried'))
+          .catch((err) => console.log(err))
       }
     })
 }
