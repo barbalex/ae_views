@@ -7,18 +7,26 @@
 const ddoc = {
   _id: '_design/macromycetesById',
   views: {
-    'macromycetesById': {
+    macromycetesById: {
       map: function (doc) {
-        function findStandardTaxonomyInDoc (doc) {
+        function findStandardTaxonomyInDoc(dc) {
           var standardtaxonomie = null
-          doc.Taxonomien.forEach(function (taxonomy) {
+          dc.Taxonomien.forEach(function (taxonomy) {
             if (taxonomy.Standardtaxonomie) standardtaxonomie = taxonomy
           })
           return standardtaxonomie
         }
-        if (doc.Typ && doc.Typ === 'Objekt' && doc.Gruppe && doc.Gruppe === 'Macromycetes' && doc.Taxonomien) {
+        if (
+          doc.Typ &&
+          doc.Typ === 'Objekt' &&
+          doc.Gruppe &&
+          doc.Gruppe === 'Macromycetes' &&
+          doc.Taxonomien
+        ) {
           var standardtaxonomie = findStandardTaxonomyInDoc(doc)
-          if (standardtaxonomie) emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
+          if (standardtaxonomie) {
+            emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
+          }
         }
       }.toString()
     }
@@ -29,21 +37,21 @@ module.exports = (db) => {
   db.get('_design/macromycetesById')
     .then((doc) => db.remove(doc))
     .then(() => db.put(ddoc))
-    .then((response) => {
+    .then(() => {
       console.log('macromycetesById index put')
       return db.query('macromycetesById')
     })
-    .then((result) => console.log('macromycetesById index queried'))
+    .then(() => console.log('macromycetesById index queried'))
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(ddoc)
-          .then((response) => {
+          .then(() => {
             console.log('macromycetesById index put')
             return db.query('macromycetesById')
           })
-          .then((result) => console.log('macromycetesById index queried'))
-          .catch((error) => console.log(error))
+          .then(() => console.log('macromycetesById index queried'))
+          .catch((err) => console.log(err))
       }
     })
 }
