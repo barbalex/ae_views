@@ -18,22 +18,25 @@ const ddoc = {
   }
 }
 
-module.exports = (db) => {
-  db.get('_design/groupFilter')
-    // remove existing filter doc
-    .then((doc) => db.remove(doc))
-    .then(() => db.put(ddoc))
-    .then(() => {
-      console.log('group filter put')
-    })
-    .catch((error) => {
-      if (error.status === 404) {
-        // doc not found when getting
-        db.put(ddoc)
-          .then(() => {
-            console.log('group filter put')
-          })
-          .catch((err) => console.log(err))
-      }
-    })
-}
+module.exports = (db) =>
+  new Promise((resolve, reject) => {
+    db.get('_design/groupFilter')
+      // remove existing filter doc
+      .then((doc) => db.remove(doc))
+      .then(() => db.put(ddoc))
+      .then(() => {
+        console.log('group filter put')
+        resolve()
+      })
+      .catch((error) => {
+        if (error.status === 404) {
+          // doc not found when getting
+          db.put(ddoc)
+            .then(() => {
+              console.log('group filter put')
+              resolve()
+            })
+            .catch((err) => reject(err))
+        }
+      })
+  })
