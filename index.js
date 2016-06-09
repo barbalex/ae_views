@@ -5,7 +5,9 @@ const fs = require('fs')
 const PouchDB = require('pouchdb')
 const couchPass = require('./couchPass.json')
 
-const removeArtendbDDoc = require('./src/removeArtendbDDoc.js')
+// only needed when old version of artendb was synced including ddoc
+// const removeArtendbDDoc = require('./src/removeArtendbDDoc.js')
+
 const dDocsAreEqual = require('./src/dDocsAreEqual.js')
 
 const createGroupFilter = require('./filters/groupFilter.js')
