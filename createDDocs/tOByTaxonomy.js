@@ -5,6 +5,7 @@
 'use strict'
 
 const tOByTaxonomy = require('../views/tOByTaxonomy')
+const objectByTaxonomy = require('../lists/objectByTaxonomy')
 
 module.exports = () => ({
   _id: '_design/tOByTaxonomy',
@@ -14,9 +15,6 @@ module.exports = () => ({
     }
   },
   lists: {
-    objectByTaxonomy: function(head, req) {
-      'use strict'
-      
-    }.toString()
+    objectByTaxonomy: objectByTaxonomy.toString()
   }
 })

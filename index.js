@@ -1,6 +1,7 @@
 'use strict'
 
 const fs = require('fs')
+const _ = require('lodash')
 
 const PouchDB = require('pouchdb')
 const couchPass = require('./couchPass.json')
@@ -35,48 +36,42 @@ const db = new PouchDB(couchUrl)
 // get an array of all filenames in ./createDDocs
 const dDocFilenames = fs.readdirSync('./createDDocs')
 
-dDocFilenames.forEach((dDocFilename) => {
+dDocFilenames.forEach((dDocFilename, index) => {
   const dDocName = dDocFilename.replace('.js', '')
   const dDoc = require(`./createDDocs/${dDocName}`)
   db.get(`_design/${dDocName}`)
-    .then((doc) => db.remove(doc))
-    .then(() => db.put(dDoc()))
-    .then(() => {
-      console.log(`${dDocName} index put`)
-      return db.query(dDocName)
+    .then((oldDDoc) => {
+      const oldDDocToCompare = _.cloneDeep(oldDDoc)
+      // ddoc gets a rev in CouchDB, need to remove it to compare old with new
+      delete oldDDocToCompare._rev
+      const dDocHasChanged = JSON.stringify(oldDDocToCompare) !== JSON.stringify(dDoc())
+      // only replace ddoc if it has changed
+      if (dDocHasChanged) {
+        db.remove(oldDDoc)
+          .then(() => db.put(dDoc()))
+          .then(() => {
+            console.log(`${dDocName} ddoc put`)
+            return db.query(dDocName)
+          })
+          .then(() => console.log(`${dDocName} view queried`))
+          .catch((err) => console.log(err))
+      } else {
+        console.log(`${dDocName} unchangged`)
+      }
     })
-    .then(() => console.log(`${dDocName} index queried`))
     .catch((error) => {
       if (error.status === 404) {
         // doc not found when getting
         db.put(dDoc())
           .then(() => {
-            console.log(`${dDocName} index put`)
+            console.log(`${dDocName} ddoc put`)
             return db.query(dDocName)
           })
-          .then(() => console.log(`${dDocName} index queried`))
+          .then(() => console.log(`${dDocName} view queried`))
           .catch((err) => console.log(err))
       }
     })
 })
 
 // removeArtendbDDoc(db)
-/*
-faunaById(db)
-fieldsOfGroup(db)
-floraById(db)
-groups(db)
-macromycetesById(db)
-mooseById(db)
-objects(db)
-objectsIdsByPcsName(db)
-objectsIdsByRcsName(db)
-organizations(db)
-pcs(db)
-rcs(db)
-taxonomies(db)
-taxonomyObjects(db)
-tOByTaxonomy(db)
-tcs(db)
-*/
 groupFilter(db)

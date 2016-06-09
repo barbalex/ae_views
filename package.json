@@ -16,6 +16,7 @@
     "eslint-plugin-import": "1.8.1",
     "eslint-plugin-jsx-a11y": "1.2.2",
     "eslint-plugin-react": "5.1.1",
+    "lodash": "4.13.1",
     "pouchdb": "5.4.0"
   },
   "repository": {
