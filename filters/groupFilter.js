@@ -1,5 +1,5 @@
 /*
- * creates a design doc and puts it into the db
+ * creates a design doc
  */
 
 'use strict'
