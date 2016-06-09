@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"d",
+				"dDoc2ToCompare"
+			],
+			[
+				"dDo",
+				"dDoc1"
+			],
+			[
+				"dD",
+				"dDocToCompare"
+			],
+			[
+				"doc",
+				"docToCompare"
+			],
+			[
 				"coll",
 				"collection"
 			],
@@ -43,7 +59,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 543,
+				"buffer_size": 567,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,127 +67,7 @@
 			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 1455,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/taxonomyObjects.js",
-			"settings":
-			{
-				"buffer_size": 1026,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/tcs.js",
-			"settings":
-			{
-				"buffer_size": 1465,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "filters/groupFilter.js",
-			"settings":
-			{
-				"buffer_size": 816,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/taxonomies.js",
-			"settings":
-			{
-				"buffer_size": 1035,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/mooseById.js",
-			"settings":
-			{
-				"buffer_size": 1507,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/objects.js",
-			"settings":
-			{
-				"buffer_size": 944,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/groups.js",
-			"settings":
-			{
-				"buffer_size": 958,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/objectsIdsByPcsName.js",
-			"settings":
-			{
-				"buffer_size": 1173,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/objectsIdsByRcsName.js",
-			"settings":
-			{
-				"buffer_size": 1167,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/organizations.js",
-			"settings":
-			{
-				"buffer_size": 1004,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/pcs.js",
-			"settings":
-			{
-				"buffer_size": 1504,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/rcs.js",
-			"settings":
-			{
-				"buffer_size": 1480,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/artendb.js",
-			"settings":
-			{
-				"buffer_size": 258,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/faunaById.js",
-			"settings":
-			{
-				"buffer_size": 1507,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/fieldsOfGroup.js",
-			"settings":
-			{
-				"buffer_size": 2919,
+				"buffer_size": 1994,
 				"line_ending": "Windows"
 			}
 		},
@@ -179,15 +75,31 @@
 			"file": ".eslintrc.json",
 			"settings":
 			{
-				"buffer_size": 662,
+				"buffer_size": 634,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "views/floraById.js",
+			"file": "views/.eslintrc.json",
 			"settings":
 			{
-				"buffer_size": 1510,
+				"buffer_size": 49,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/faunaById.js",
+			"settings":
+			{
+				"buffer_size": 587,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lists/objectByTaxonomy.js",
+			"settings":
+			{
+				"buffer_size": 70,
 				"line_ending": "Windows"
 			}
 		}
@@ -238,19 +150,52 @@
 	"expanded_folders":
 	[
 		"/C/Users/alex/ae_views",
-		"/C/Users/alex/ae_views/filters",
 		"/C/Users/alex/ae_views/views"
 	],
 	"file_history":
 	[
-		"/C/Users/alex/ae_views/views/macromycetesById.js",
 		"/C/Users/alex/ae_views/filters/groupFilter.js",
-		"/C/Users/alex/ae_views/package.json",
-		"/C/Users/alex/ae_views/views/pcs.js",
+		"/C/Users/alex/ae_views/dDocsAreEqual.js",
+		"/C/Users/alex/ae_views/views/tOByTaxonomy.js",
+		"/C/Users/alex/ae_views/createDDocs/tOByTaxonomy.js",
+		"/C/Users/alex/ae_views/lists/objectByTaxonomy.js",
+		"/C/Users/alex/ae_views/createDDocs/faunaById.js",
+		"/C/Users/alex/ae_views/createDDocs/fieldsOfGroup.js",
+		"/C/Users/alex/ae_views/createDDocs/floraById.js",
+		"/C/Users/alex/ae_views/createDDocs/groups.js",
+		"/C/Users/alex/ae_views/createDDocs/macromycetesById.js",
+		"/C/Users/alex/ae_views/createDDocs/mooseById.js",
+		"/C/Users/alex/ae_views/createDDocs/objects.js",
+		"/C/Users/alex/ae_views/createDDocs/objectsIdsByPcsName.js",
+		"/C/Users/alex/ae_views/createDDocs/objectsIdsByRcsName.js",
+		"/C/Users/alex/ae_views/createDDocs/organizations.js",
+		"/C/Users/alex/ae_views/createDDocs/pcs.js",
+		"/C/Users/alex/ae_views/createDDocs/rcs.js",
+		"/C/Users/alex/ae_views/createDDocs/taxonomies.js",
+		"/C/Users/alex/ae_views/createDDocs/taxonomyObjects.js",
+		"/C/Users/alex/ae_views/createDDocs/tcs.js",
 		"/C/Users/alex/ae_views/views/tcs.js",
+		"/C/Users/alex/ae_views/removeArtendbDDoc.js",
+		"/C/Users/alex/ae_views/views/objectsIdsByPcsName.js",
+		"/C/Users/alex/ae_views/views/objectsIdsByRcsName.js",
+		"/C/Users/alex/ae_views/views/organizations.js",
+		"/C/Users/alex/ae_views/views/pcs.js",
+		"/C/Users/alex/ae_views/views/rcs.js",
+		"/C/Users/alex/ae_views/views/taxonomies.js",
+		"/C/Users/alex/ae_views/views/taxonomyObjects.js",
+		"/C/Users/alex/ae_views/views/objects.js",
+		"/C/Users/alex/ae_views/views/mooseById.js",
+		"/C/Users/alex/ae_views/views/macromycetesById.js",
+		"/C/Users/alex/ae_views/views/groups.js",
+		"/C/Users/alex/ae_views/views/floraById.js",
+		"/C/Users/alex/ae_views/views/fieldsOfGroup.js",
+		"/C/Users/alex/ae_views/views/faunaById.js",
+		"/C/Users/alex/ae_views/lists/objectWithTaxonomy.js",
+		"/C/Users/alex/ae_views/views/artendb.js",
+		"/C/Users/alex/ae_views/.eslintrc.json",
+		"/C/Users/alex/ae_views/package.json",
 		"/C/Users/alex/ae_replicate_groups/package.json",
 		"/C/Users/alex/ae_load_dumps/package.json",
-		"/C/Users/alex/ae_views/.eslintrc.json",
 		"/C/Users/alex/ae/src/components/main/object/pcDescription.js",
 		"/C/Users/alex/ae/src/components/main/export/panel2/pcDescription.js",
 		"/C/Users/alex/ae/src/components/main/export/panel2/fieldsPCs.js",
@@ -314,6 +259,7 @@
 		"height": 132.0,
 		"where_history":
 		[
+			"C:\\Users\\alex\\ae_views",
 			"C:\\Users\\alex\\ae",
 			""
 		]
@@ -323,6 +269,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"dDoc()",
+			"doc",
+			"docToCompare",
+			"creates a design doc and puts it into the db",
+			"ddoc",
+			"dDocs",
+			"/views/",
+			"taxonomyObjects",
 			"taxonomies",
 			"taxonomyObjects",
 			"organizations",
@@ -401,6 +355,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"newDDoc",
+			"oldDDoc",
+			"oldDDocToCompare",
+			"creates a design doc",
+			"dDoc",
+			"dDocFilenames",
+			"/createDDocs/",
+			"tOByTaxonomy",
 			"groups",
 			"taxonomies",
 			"taxonomyObjects",
@@ -420,13 +382,13 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 17,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -435,15 +397,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 543,
+						"buffer_size": 567,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								435,
+								435
 							]
 						],
 						"settings":
@@ -456,7 +418,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -465,15 +427,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1455,
+						"buffer_size": 1994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1189,
-								1189
+								739,
+								739
 							]
 						],
 						"settings":
@@ -483,32 +445,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "views/taxonomyObjects.js",
+					"file": ".eslintrc.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1026,
+						"buffer_size": 634,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								497,
-								497
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -521,26 +483,24 @@
 				},
 				{
 					"buffer": 3,
-					"file": "views/tcs.js",
+					"file": "views/.eslintrc.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1465,
+						"buffer_size": 49,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								861,
-								861
+								22,
+								22
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -551,113 +511,11 @@
 				},
 				{
 					"buffer": 4,
-					"file": "filters/groupFilter.js",
+					"file": "views/faunaById.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 816,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								776,
-								776
-							],
-							[
-								796,
-								796
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "views/taxonomies.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1035,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								995,
-								995
-							],
-							[
-								1015,
-								1015
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "views/mooseById.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1467,
-								1467
-							],
-							[
-								1487,
-								1487
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "views/objects.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 944,
+						"buffer_size": 587,
 						"regions":
 						{
 						},
@@ -678,220 +536,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "views/groups.js",
+					"buffer": 5,
+					"file": "lists/objectByTaxonomy.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 958,
+						"buffer_size": 70,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "views/objectsIdsByPcsName.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1173,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1133,
-								1133
-							],
-							[
-								1153,
-								1153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "views/objectsIdsByRcsName.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1127,
-								1127
-							],
-							[
-								1147,
-								1147
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "views/organizations.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1004,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								964,
-								964
-							],
-							[
-								984,
-								984
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "views/pcs.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1504,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1464,
-								1464
-							],
-							[
-								1484,
-								1484
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "views/rcs.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1480,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1190,
-								1190
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "views/artendb.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2,
-								2
+								66,
+								66
 							]
 						],
 						"settings":
@@ -902,135 +564,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "views/faunaById.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								161,
-								161
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "views/fieldsOfGroup.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2919,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2879,
-								2879
-							],
-							[
-								2899,
-								2899
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 102.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": ".eslintrc.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 662,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								662
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "views/floraById.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1510,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1470,
-								1470
-							],
-							[
-								1490,
-								1490
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

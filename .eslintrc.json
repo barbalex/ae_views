@@ -1,5 +1,4 @@
 {
-  "parser": "babel-eslint",
   "extends": "airbnb",
   "env": {
     "node": true
@@ -8,9 +7,6 @@
     "emit": true,
     "doc": true
   },
-  "plugins": [
-      "react"
-  ],
   "rules": {
     "react/jsx-no-bind": 0,
     "comma-dangle": 0,
@@ -21,8 +17,6 @@
     "strict": 0,
     "max-len": ["error", 120, 2, {"ignoreUrls": true}],
     "no-underscore-dangle": ["error", { "allow": ["_id", "_rev", "_attachments"] }],
-    // accept createClass because all are done that way...
-    "react/prefer-es6-class": 0,
     "no-param-reassign": ["error", { "props": false }]
   }
 }
