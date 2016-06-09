@@ -23,7 +23,7 @@ const dDocFilenames = fs.readdirSync('./createDDocs')
 // removeArtendbDDoc(db)
 createGroupFilter(db)
   .then(() => {
-    dDocFilenames.forEach((dDocFilename, index) => {
+    dDocFilenames.forEach((dDocFilename) => {
       const dDocName = dDocFilename.replace('.js', '')
       const dDoc = require(`./createDDocs/${dDocName}`)
       const newDDoc = dDoc()
