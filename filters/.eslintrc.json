@@ -1,0 +1,18 @@
+{
+  "eslint-env": "es5",
+  "globals": {
+    "emit": true,
+    "doc": true,
+    "row": true,
+    "getRow": true,
+    "start": true,
+    "send": true
+  },
+  "rules": {
+    "func-names": "off",
+    "no-var": "off",
+    "prefer-arrow-callback": "off",
+    "object-shorthand": "off",
+    "no-cond-assign": "off"
+  }
+}
