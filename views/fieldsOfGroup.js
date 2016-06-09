@@ -7,8 +7,9 @@ module.exports = function (doc) {
   ) {
     if (doc.Taxonomien) {
       doc.Taxonomien.forEach(function (taxonomy) {
+        var eigenschaften
         if (taxonomy.Eigenschaften) {
-          var eigenschaften = taxonomy.Eigenschaften
+          eigenschaften = taxonomy.Eigenschaften
           Object.keys(eigenschaften).forEach(function (feldname) {
             var feldwert = eigenschaften[feldname]
             emit([doc.Gruppe, 'taxonomy', taxonomy.Name, feldname, typeof feldwert], doc._id)
@@ -19,8 +20,9 @@ module.exports = function (doc) {
 
     if (doc.Eigenschaftensammlungen) {
       doc.Eigenschaftensammlungen.forEach(function (pc) {
+        var eigenschaften
         if (pc.Eigenschaften) {
-          var eigenschaften = pc.Eigenschaften
+          eigenschaften = pc.Eigenschaften
           Object.keys(eigenschaften).forEach(function (feldname) {
             var feldwert = eigenschaften[feldname]
             emit([doc.Gruppe, 'propertyCollection', pc.Name, feldname, typeof feldwert], doc._id)

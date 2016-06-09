@@ -1,14 +1,6 @@
 module.exports = function (doc) {
   'use strict'
-  function findStandardTaxonomyInDoc(dc) {
-    var standardtaxonomie = null
-    dc.Taxonomien.forEach(function (taxonomy) {
-      if (taxonomy.Standardtaxonomie) {
-        standardtaxonomie = taxonomy
-      }
-    })
-    return standardtaxonomie
-  }
+  var standardtaxonomie
   if (
     doc.Typ &&
     doc.Typ === 'Objekt' &&
@@ -16,9 +8,18 @@ module.exports = function (doc) {
     doc.Gruppe === 'Fauna' &&
     doc.Taxonomien
   ) {
-    var standardtaxonomie = findStandardTaxonomyInDoc(doc)
+    standardtaxonomie = findStandardTaxonomyInDoc(doc)
     if (standardtaxonomie) {
       emit(standardtaxonomie.Eigenschaften['Taxonomie ID'], null)
     }
+  }
+  function findStandardTaxonomyInDoc(dc) {
+    var stdTaxonomie = null
+    dc.Taxonomien.forEach(function (taxonomy) {
+      if (taxonomy.Standardtaxonomie) {
+        stdTaxonomie = taxonomy
+      }
+    })
+    return stdTaxonomie
   }
 }
