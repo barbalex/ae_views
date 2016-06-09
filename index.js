@@ -17,6 +17,7 @@ const pcs = require('./views/pcs.js')
 const rcs = require('./views/rcs.js')
 const taxonomies = require('./views/taxonomies.js')
 const taxonomyObjects = require('./views/taxonomyObjects.js')
+const tOByTaxonomy = require('./views/tOByTaxonomy.js')
 const tcs = require('./views/tcs.js')
 const groupFilter = require('./filters/groupFilter.js')
 
@@ -24,7 +25,7 @@ const couchUrl = `http://${couchPass.user}:${couchPass.pass}@127.0.0.1:5984/arte
 // const couchUrl = `http://${couchPass.user}:${couchPass.pass}@46.101.210.208:5984/artendb`
 
 const db = new PouchDB(couchUrl)
-artendb(db)
+//artendb(db)
 faunaById(db)
 fieldsOfGroup(db)
 floraById(db)
@@ -39,5 +40,6 @@ pcs(db)
 rcs(db)
 taxonomies(db)
 taxonomyObjects(db)
+tOByTaxonomy(db)
 tcs(db)
 groupFilter(db)
