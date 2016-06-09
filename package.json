@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "standard"
+    "test": "eslint --debug ./views/faunaById.js"
   },
   "author": "",
   "license": "ISC",

@@ -3,10 +3,6 @@
   "env": {
     "node": true
   },
-  "globals": {
-    "emit": true,
-    "doc": true
-  },
   "rules": {
     "react/jsx-no-bind": 0,
     "comma-dangle": 0,
