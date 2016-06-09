@@ -19,8 +19,18 @@ module.exports = function (head, req) {
       }
     })
     result = { rows: [] }
+    var objekt
     while (row = getRow()) {
-      result.rows.push(row.doc)
+      const rowIsTaxObjekt = row.key[1] === 0
+      const rowIsObjekt = row.key[1] === 1
+      if (rowIsTaxObjekt) {
+        objekt = {}
+        objekt.taxObj = row.doc
+      }
+      if (rowIsObjekt) {
+        objekt.obj = row.doc
+        result.rows.push(objekt)
+      }
     }
   }
   send(JSON.stringify(result))
