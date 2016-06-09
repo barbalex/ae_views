@@ -1,60 +1,24 @@
-/*
- * creates a design doc and puts it into the db
- */
-
-'use strict'
-
-const ddoc = {
-  _id: '_design/rcs',
-  views: {
-    rcs: {
-      map: function (doc) {
+module.exports = function (doc) {
+  'use strict'
+  if (
+    doc.Typ &&
+    doc.Typ === 'Objekt' &&
+    doc.Beziehungssammlungen
+  ) {
+    doc.Beziehungssammlungen.forEach(function (rc) {
+      // add rcCombining
+      var rcCombining = !!rc.zusammenfassend
+      var felder = {}
+      Object.keys(rc).forEach(function (key) {
         if (
-          doc.Typ &&
-          doc.Typ === 'Objekt' &&
-          doc.Beziehungssammlungen
+          key !== 'Typ' &&
+          key !== 'Name' &&
+          key !== 'Eigenschaften'
         ) {
-          doc.Beziehungssammlungen.forEach(function (rc) {
-            // add rcCombining
-            var rcCombining = !!rc.zusammenfassend
-            var felder = {}
-            Object.keys(rc).forEach(function (key) {
-              if (
-                key !== 'Typ' &&
-                key !== 'Name' &&
-                key !== 'Eigenschaften'
-              ) {
-                felder[key] = rc[key]
-              }
-            })
-            emit([rc.Name, rcCombining, rc['Organisation mit Schreibrecht'], felder], null)
-          })
+          felder[key] = rc[key]
         }
-      }.toString(),
-      reduce: '_count'
-    }
+      })
+      emit([rc.Name, rcCombining, rc['Organisation mit Schreibrecht'], felder], null)
+    })
   }
-}
-
-module.exports = (db) => {
-  db.get('_design/rcs')
-    .then((doc) => db.remove(doc))
-    .then(() => db.put(ddoc))
-    .then(() => {
-      console.log('rcs index put')
-      return db.query('rcs')
-    })
-    .then(() => console.log('rcs index queried'))
-    .catch((error) => {
-      if (error.status === 404) {
-        // doc not found when getting
-        db.put(ddoc)
-          .then(() => {
-            console.log('rcs index put')
-            return db.query('rcs')
-          })
-          .then(() => console.log('rcs index queried'))
-          .catch((err) => console.log(err))
-      }
-    })
 }
