@@ -1,47 +1,12 @@
-/*
- * creates a design doc and puts it into the db
- */
-
-'use strict'
-
-const ddoc = {
-  _id: '_design/objectsIdsByPcsName',
-  views: {
-    objectsIdsByPcsName: {
-      map: function (doc) {
-        if (
-          doc.Typ &&
-          doc.Typ === 'Objekt' &&
-          doc.Eigenschaftensammlungen
-        ) {
-          doc.Eigenschaftensammlungen.forEach(function (es) {
-            emit(es.Name, doc._id)
-          })
-        }
-      }.toString()
-    }
+module.exports = function (doc) {
+  'use strict'
+  if (
+    doc.Typ &&
+    doc.Typ === 'Objekt' &&
+    doc.Eigenschaftensammlungen
+  ) {
+    doc.Eigenschaftensammlungen.forEach(function (es) {
+      emit(es.Name, doc._id)
+    })
   }
-}
-
-module.exports = (db) => {
-  db.get('_design/objectsIdsByPcsName')
-    .then((doc) => db.remove(doc))
-    .then(() => db.put(ddoc))
-    .then(() => {
-      console.log('objectsIdsByPcsName index put')
-      return db.query('objectsIdsByPcsName')
-    })
-    .then(() => console.log('objectsIdsByPcsName index queried'))
-    .catch((error) => {
-      if (error.status === 404) {
-        // doc not found when getting
-        db.put(ddoc)
-          .then(() => {
-            console.log('objectsIdsByPcsName index put')
-            return db.query('objectsIdsByPcsName')
-          })
-          .then(() => console.log('objectsIdsByPcsName index queried'))
-          .catch((err) => console.log(err))
-      }
-    })
 }
