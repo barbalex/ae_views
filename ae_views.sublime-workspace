@@ -56,6 +56,14 @@
 	"buffers":
 	[
 		{
+			"file": "/D/Google Drive/artendb/push.txt",
+			"settings":
+			{
+				"buffer_size": 7648,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "package.json",
 			"settings":
 			{
@@ -64,27 +72,10 @@
 			}
 		},
 		{
-			"contents": "    > eslint --debug ./views/faunaById.js\n\n      eslint:cli Running on files +0ms\n      eslint:ignored-paths Looking for ignore file in C:\\Users\\alex\\ae_views +33ms\n      eslint:ignored-paths Could not find ignore file in cwd +2ms\n      eslint:glob-util Creating list of files to process. +1ms\n      eslint:cli-engine Processing C:\\Users\\alex\\ae_views\\views\\faunaById.js +5ms\n      eslint:cli-engine Linting C:\\Users\\alex\\ae_views\\views\\faunaById.js +1ms\n      eslint:config Constructing config for C:\\Users\\alex\\ae_views\\views\\faunaById.js +1ms\n      eslint:config Using .eslintrc and package.json files +4ms\n      eslint:config Loading C:\\Users\\alex\\ae_views\\views\\.eslintrc.json +5ms\n      eslint:config-file Loading JSON config file: C:\\Users\\alex\\ae_views\\views\\.eslintrc.json +1ms\n      eslint:config Using C:\\Users\\alex\\ae_views\\views\\.eslintrc.json +2ms\n      eslint:config Loading C:\\Users\\alex\\ae_views\\.eslintrc.json +3ms\n      eslint:config-file Loading JSON config file: C:\\Users\\alex\\ae_views\\.eslintrc.json +1ms\n      eslint:config-file Loading airbnb +16ms\n      eslint:config-file Attempting to resolve eslint-config-airbnb +1ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb\\index.js +2ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb\\rules\\react-a11y.js +2ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb\\rules\\react-a11y.js +1ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb\\rules\\react.js +54ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb\\rules\\react.js +1ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\strict.js +14ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\strict.js +2ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\index.js +2ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\index.js +4ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\es6.js +2ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\es6.js +3ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\legacy.js +64ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\legacy.js +2ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\variables.js +3ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\variables.js +3ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\style.js +8ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\style.js +1ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\node.js +81ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\node.js +1ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\legacy.js +7ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\legacy.js +2ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\errors.js +5ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\errors.js +2ms\n      eslint:config-file Loading C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\best-practices.js +19ms\n      eslint:config-file Loading JS config file: C:\\Users\\alex\\ae_views\\node_modules\\eslint-config-airbnb-base\\rules\\best-practices.js +1ms\n      eslint:config Using C:\\Users\\alex\\ae_views\\.eslintrc.json +40ms\n      eslint:config Merging command line environment settings +2ms\n      eslint:config-ops Apply environment settings to config +1ms\n      eslint:config-ops Creating config for environment node +1ms\n      eslint:config-ops Creating config for environment browser +4ms\n      eslint:config-ops Creating config for environment es6 +1ms\n      eslint:cli-engine Linting complete in: 445ms +65ms\n\n    C:\\Users\\alex\\ae_views\\views\\faunaById.js\n       1:18  warning  Missing function expression name          func-names\n       3:3   error    Unexpected var, use let or const instead  no-var\n      17:5   error    Unexpected var, use let or const instead  no-var\n      18:27  warning  Missing function expression name          func-names\n      18:27  error    Unexpected function expression            prefer-arrow-callback\n\n    ✖ 5 problems (3 errors, 2 warnings)\n\n    npm ERR! Test failed.  See above for more details.",
+			"file": "views/tOByTaxonomy.js",
 			"settings":
 			{
-				"buffer_size": 5198,
-				"line_ending": "Windows",
-				"name": "> eslint --debug ./views/faunaById.js"
-			}
-		},
-		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 2067,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lists/objectByTaxonomy.js",
-			"settings":
-			{
-				"buffer_size": 70,
+				"buffer_size": 334,
 				"line_ending": "Windows"
 			}
 		},
@@ -97,78 +88,26 @@
 			}
 		},
 		{
-			"file": "views/floraBySisf2TaxId.js",
+			"file": "lists/objectByTaxonomy.js",
 			"settings":
 			{
-				"buffer_size": 399,
+				"buffer_size": 828,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "createDDocs/floraBySisf2TaxId.js",
+			"contents": "[\n  {\n    \"id\": \"00022bc0-581b-40aa-9729-50d5bbb406f9\",\n    \"key\": [\"00022bc0-581b-40aa-9729-50d5bbb406f9\",0],\n    \"value\": {\"_id\":\"424fde5b-b435-46b5-aa4b-a27449119669\"},\n    \"doc\": {\"_id\":\"424fde5b-b435-46b5-aa4b-a27449119669\",\"_rev\":\"1-e3c7454a68d44b1fd8f03110ad5992df\",\"Typ\":\"Taxonomie\",\"Name\":\"Swissfunghi (2011)\",\"Beschreibung\":\"WSL, Swissfunghi, Beatrice Senn (Datenzentrum Moose Schweiz)\",\"Datenstand\":\"2011.06\",\"Link\":\"http://www.wsl.ch/dienstleistungen/inventare/pilze_flechten/swissfungi/index_DE\",\"Gruppe\":\"Pilze\",\"Standardtaxonomie\":true,\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"}\n  },\n  {\n    \"id\": \"00022bc0-581b-40aa-9729-50d5bbb406f9\",\n    \"key\": [\"00022bc0-581b-40aa-9729-50d5bbb406f9\",1],\n    \"value\": null,\n    \"doc\": {\"_id\":\"00022bc0-581b-40aa-9729-50d5bbb406f9\",\"_rev\":\"1-f8440deb41021472b00f6a51a513e7e7\",\"Typ\":\"Taxonomie-Objekt\",\"Taxonomie\":\"424fde5b-b435-46b5-aa4b-a27449119669\",\"Name\":\"Plagiothecium undulatum (Hedw.) Schimp.\",\"Objekt\":{\"id\":\"5673D702-8FBF-4F0A-9BDB-05A71ECB2FDA\",\"Eigenschaften\":{\"Taxonomie ID\":1882,\"Klasse\":\"Musci (Laubmoose)\",\"Familie\":\"Plagiotheciaceae\",\"Gattung\":\"Plagiothecium\",\"Art\":\"undulatum\",\"Autor\":\"(Hedw.) Schimp.\",\"Artname\":\"Plagiothecium undulatum (Hedw.) Schimp.\",\"Artname vollständig\":\"Plagiothecium undulatum (Hedw.) Schimp.\",\"Status\":\"a :  anerkannte Art\",\"Bearbeitungsstand\":\"D :  Bearbeitungsstand der Art bei den Kartierarbeiten (undokumentiert, zwischen A und D)\",\"Hierarchische Nr\":\"294.0.11.0\",\"Taxon ID VDC\":\"infospecies.ch:nism:1882\"}},\"parent\":\"a18802dd-66c8-4fc3-a7d3-cdcffc9d22b7\"}\n  },\n  {\n    \"id\": \"00022bc0-581b-40aa-9729-50d5bbb406f9\",\n    \"key\": [\"00022bc0-581b-40aa-9729-50d5bbb406f9\",2],\n    \"value\": {\"_id\":\"5673D702-8FBF-4F0A-9BDB-05A71ECB2FDA\"},\n    \"doc\": {\"_id\":\"5673D702-8FBF-4F0A-9BDB-05A71ECB2FDA\",\"_rev\":\"18-18b5ca45f509f985a2fd66baf398a951\",\"Gruppe\":\"Moose\",\"Typ\":\"Objekt\",\"Eigenschaftensammlungen\":[{\"Name\":\"CH Rote Liste (aktuell)\",\"Beschreibung\":\"Zusammenfassung aller Roten Listen aus allen Artgruppen (pro Art jeweils die neusten Informationen)\",\"Datenstand\":\"20.05.2014\",\"Link\":\"http://www.bafu.admin.ch/biodiversitaet/10372/10393/index.html?lang=de\",\"zusammenfassend\":true,\"Ursprungsdatensammlung\":\"CH Rote Liste Moose (2004)\",\"importiert von\":\"alex@gabriel-software.ch\",\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Eigenschaften\":{\"Schweiz (codiert)\":\"LC\",\"Schweiz (uncodiert)\":\"nicht gefährdet\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Rote Liste Moose (2004)\",\"Beschreibung\":\"BAFU (2004): Rote Liste der gefährdeten Moose der Schweiz. Eigenschaften von 1221 Moosarten\",\"Datenstand\":\"2004\",\"Link\":\"http://www.bafu.admin.ch/publikationen/publikation/00912/index.html?lang=de&download=NHzLpZig7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGdoF4e2ym162dpYbUzd,Gpd6emK2Oz9aGodetmqaN19XI2IdvoaCVZ,s-.pdf\",\"importiert von\":\"alex@gabriel-software.ch\",\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Eigenschaften\":{\"Schweiz (codiert)\":\"LC\",\"Schweiz (uncodiert)\":\"nicht gefährdet\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"ZH GIS\",\"Beschreibung\":\"GIS-Layer und Betrachtungsdistanzen für das Artenlistentool, Artengruppen für EvAB, im Kanton Zürich. Eigenschaften aller Arten\",\"Datenstand\":\"dauernd nachgeführt\",\"Link\":\"http://www.naturschutz.zh.ch\",\"Nutzungsbedingungen\":\"Open Data: Die veröffentlichten Daten dürfen mit Hinweis auf die Quelle vervielfältigt, verbreitet und weiter zugänglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. Für die Richtigkeit, Genauigkeit, Zuverlässigkeit und Vollständigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung übernommen.\",\"Eigenschaften\":{\"GIS-Layer\":\"Moose\",\"Artengruppen-ID in EvAB\":29,\"Betrachtungsdistanz (m)\":500},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"}],\"Beziehungssammlungen\":[],\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"}\n  }\n]",
 			"settings":
 			{
-				"buffer_size": 402,
+				"buffer_size": 4123,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "module.exports = function(head, req) {\n  var headers = { 'Content-Type': 'application/json' }\n  var result\n  if (req.query.include_docs != 'true') {\n    start({\n      code: 400,\n      headers: headers\n    })\n    result = { error: 'I require include_docs=true' }\n  } else {\n    start({\n      headers: {\n        'Accept-Charset': 'utf-8',\n        'Content-Type': 'json; charset=utf-8;',\n        'Accept-Encoding': 'gzip,deflate'\n      }\n    })\n    result = { rows: [] }\n    while(row = getRow()) {\n      result.rows.push(row.doc)\n    }\n  }\n  send(JSON.stringify(result))\n}\n",
-			"file": "lists/floraBySisf2TaxId.js",
-			"file_size": 576,
-			"file_write_time": 131099623115839170,
+			"contents": "\n{\n  \"code\":500,\n  \"error\":\"render_error\",\n  \"reason\":\"function raised error: (new SyntaxError(\\\"JSON.parse\\\", \\\"../share/couchdb/server/main.js\\\", 874)) \\nstacktrace: getRow()@../share/couchdb/server/main.js:874\\n([object Object],[object Object])@lists.objectByTaxonomy:23\\nrunList(function (head, req) {var result;if (req.query.include_docs != \\\"true\\\") {start({code: 400, headers: {'Content-Type': \\\"application/json\\\"}});result = {error: \\\"I require include_docs=true\\\"};} else {start({headers: {'Accept-Charset': \\\"utf-8\\\", 'Content-Type': \\\"json; charset=utf-8;\\\", 'Accept-Encoding': \\\"gzip,deflate\\\"}});result = {rows: []};var objekt;while ((row = getRow())) {const rowIsTaxObjekt = row.key[1] === 0;const rowIsObjekt = row.key[1] === 1;if (rowIsTaxObjekt) {objekt = {};objekt.taxObj = row.doc;}if (rowIsObjekt) {objekt.obj = row.doc;result.rows.push(objekt);}}}send(JSON.stringify(result));},[object Object],[object Array])@../share/couchdb/server/main.js:989\\n(function (head, req) {var result;if (req.query.include_docs != \\\"true\\\") {start({code: 400, headers: {'Content-Type': \\\"application/json\\\"}});result = {error: \\\"I require include_docs=true\\\"};} else {start({headers: {'Accept-Charset': \\\"utf-8\\\", 'Content-Type': \\\"json; charset=utf-8;\\\", 'Accept-Encoding': \\\"gzip,deflate\\\"}});result = {rows: []};var objekt;while ((row = getRow())) {const rowIsTaxObjekt = row.key[1] === 0;const rowIsObjekt = row.key[1] === 1;if (rowIsTaxObjekt) {objekt = {};objekt.taxObj = row.doc;}if (rowIsObjekt) {objekt.obj = row.doc;result.rows.push(objekt);}}}send(JSON.stringify(result));},[object Object],[object Array])@../share/couchdb/server/main.js:1036\\n(\\\"_design/tOByTaxonomy\\\",[object Array],[object Array])@../share/couchdb/server/main.js:1517\\n()@../share/couchdb/server/main.js:1562\\n@../share/couchdb/server/main.js:1573\\n\"\n}",
 			"settings":
 			{
-				"buffer_size": 571,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lists/.eslintrc.json",
-			"settings":
-			{
-				"buffer_size": 248,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/.eslintrc.json",
-			"settings":
-			{
-				"buffer_size": 229,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "filters/.eslintrc.json",
-			"settings":
-			{
-				"buffer_size": 229,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "localhost:5984/artendb/_design/floraBySisf2TaxId/_view/floraBySisf2TaxId?include_docs=true\n\nlocalhost:5984/artendb/_design/floraBySisf2TaxId/_list/floraBySisf2TaxId/floraBySisf2TaxId?include_docs=true",
-			"settings":
-			{
-				"buffer_size": 200,
-				"line_ending": "Windows",
-				"name": "localhost:5984/artendb/_design/floraBySisf2TaxId/_"
-			}
-		},
-		{
-			"contents": "{\n  \"id\": \"f3a69ad4-379f-4cd2-97ef-565f0807b1b1\",\n  \"key\": [100],\n  \"value\": {\n    \"_id\":\"1AB6BBB1-979A-4232-A5D8-62EFB5CB984A\"\n  },\n  \"doc\": {\n    \"_id\":\"1AB6BBB1-979A-4232-A5D8-62EFB5CB984A\",\n    \"_rev\":\"53-24b213247fc7a0ec2f2db7b212b716d9\",\n    \"Gruppe\":\"Flora\",\n    \"Typ\":\"Objekt\",\n    \"Eigenschaftensammlungen\": [\n      {\n        \"Name\":\"CH Rote Liste (aktuell)\",\"Beschreibung\":\"Zusammenfassung aller Roten Listen aus allen Artgruppen (pro Art jeweils die neusten Informationen)\",\"Datenstand\":\"20.05.2014\",\"Link\":\"http://www.bafu.admin.ch/biodiversitaet/10372/10393/index.html?lang=de\",\"zusammenfassend\":true,\"Ursprungsdatensammlung\":\"CH Rote Liste Flora (2002)\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Rote-Liste-Nr\":1,\"Alpennordflanke (codiert)\":\"LC\",\"Alpennordflanke (uncodiert)\":\"nicht gefährdet\",\"Alpensüdflanke (codiert)\":\"LC\",\"Alpensüdflanke (uncodiert)\":\"nicht gefährdet\",\"Bergell (codiert)\":\"LC\",\"Bergell (uncodiert)\":\"nicht gefährdet\",\"Jura (codiert)\":\"LC\",\"Jura (uncodiert)\":\"nicht gefährdet\",\"Mittelland (codiert)\":\"LC\",\"Mittelland (uncodiert)\":\"nicht gefährdet\",\"Münstertal (codiert)\":\"LC\",\"Münstertal (uncodiert)\":\"nicht gefährdet\",\"Schaffhauser Jura (codiert)\":\"LC\",\"Schaffhauser Jura (uncodiert)\":\"nicht gefährdet\",\"Tessin (codiert)\":\"LC\",\"Tessin (uncodiert)\":\"nicht gefährdet\",\"Wallis (codiert)\":\"LC\",\"Wallis (uncodiert)\":\"nicht gefährdet\",\"Westliche Alpennordflanke (codiert)\":\"LC\",\"Westliche Alpennordflanke (uncodiert)\":\"nicht gefährdet\",\"Westliches Jura (codiert)\":\"LC\",\"Westliches Jura (uncodiert)\":\"nicht gefährdet\",\"Westliches Mittelland (codiert)\":\"LC\",\"Westliches Mittelland (uncodiert)\":\"nicht gefährdet\",\"Östliche Alpennordflanke (codiert)\":\"LC\",\"Östliche Alpennordflanke (uncodiert)\":\"nicht gefährdet\",\"Östliche Zentralalpen (codiert)\":\"LC\",\"Östliche Zentralalpen (uncodiert)\":\"nicht gefährdet\",\"Östliches Mitelland (codiert)\":\"LC\",\"Östliches Mitelland (uncodiert)\":\"nicht gefährdet\",\"Schweiz (codiert)\":\"LC\",\"Schweiz (uncodiert)\":\"nicht gefährdet\",\"Ökologische Gruppe\":\"Waldpflanzen\"},\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"CH Rote Liste Flora (1991)\",\"Beschreibung\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz. Eigenschaften von 2661 Pflanzenarten\",\"Datenstand\":\"1991\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Europa (codiert)\":\"U\",\"Europa (uncodiert)\":\"nicht gefährdet\",\"Nordjura (codiert)\":\"U\",\"Nordjura (uncodiert)\":\"nicht gefährdet\",\"Nordostschweiz (codiert)\":\"U\",\"Nordostschweiz (uncodiert)\":\"nicht gefährdet\",\"Südalpen (codiert)\":\"U\",\"Südalpen (uncodiert)\":\"nicht gefährdet\",\"Westjura (codiert)\":\"U\",\"Westjura (uncodiert)\":\"nicht gefährdet\",\"Westliche Nordalpen (codiert)\":\"U\",\"Westliche Nordalpen (uncodiert)\":\"nicht gefährdet\",\"Westliche Zentralalpen (codiert)\":\"U\",\"Westliche Zentralalpen (uncodiert)\":\"nicht gefährdet\",\"Westliches Mittelland (codiert)\":\"U\",\"Westliches Mittelland (uncodiert)\":\"nicht gefährdet\",\"Östliche Nordalpen (codiert)\":\"U\",\"Östliche Nordalpen (uncodiert)\":\"nicht gefährdet\",\"Östliche Zentralalpen (codiert)\":\"U\",\"Östliche Zentralalpen (uncodiert)\":\"nicht gefährdet\",\"Östliches Mittelland (codiert)\":\"U\",\"Östliches Mittelland (uncodiert)\":\"nicht gefährdet\",\"Schweiz (codiert)\":\"U\",\"Schweiz (uncodiert)\":\"nicht gefährdet\",\"Lebensraum\":\"Waldpflanzen\"},\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"CH Rote Liste Flora (2002)\",\"Beschreibung\":\"BAFU (2002): Rote Liste der gefährdeten Farn- und Blütenpflanzen der Schweiz. Eigenschaften von 3090 Pflanzenarten\",\"Datenstand\":\"2002\",\"Link\":\"http://www.bafu.admin.ch/publikationen/publikation/00911/index.html?lang=de&download=NHzLpZig7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGdoF3hGym162dpYbUzd,Gpd6emK2Oz9aGodetmqaN19XI2IdvoaCVZ,s-.pdf\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Rote-Liste-Nr\":1,\"Alpennordflanke (codiert)\":\"LC\",\"Alpennordflanke (uncodiert)\":\"nicht gefährdet\",\"Alpensüdflanke (codiert)\":\"LC\",\"Alpensüdflanke (uncodiert)\":\"nicht gefährdet\",\"Bergell (codiert)\":\"LC\",\"Bergell (uncodiert)\":\"nicht gefährdet\",\"Jura (codiert)\":\"LC\",\"Jura (uncodiert)\":\"nicht gefährdet\",\"Mittelland (codiert)\":\"LC\",\"Mittelland (uncodiert)\":\"nicht gefährdet\",\"Münstertal (codiert)\":\"LC\",\"Münstertal (uncodiert)\":\"nicht gefährdet\",\"Schaffhauser Jura (codiert)\":\"LC\",\"Schaffhauser Jura (uncodiert)\":\"nicht gefährdet\",\"Tessin (codiert)\":\"LC\",\"Tessin (uncodiert)\":\"nicht gefährdet\",\"Wallis (codiert)\":\"LC\",\"Wallis (uncodiert)\":\"nicht gefährdet\",\"Westliche Alpennordflanke (codiert)\":\"LC\",\"Westliche Alpennordflanke (uncodiert)\":\"nicht gefährdet\",\"Westliches Jura (codiert)\":\"LC\",\"Westliches Jura (uncodiert)\":\"nicht gefährdet\",\"Westliches Mittelland (codiert)\":\"LC\",\"Westliches Mittelland (uncodiert)\":\"nicht gefährdet\",\"Östliche Alpennordflanke (codiert)\":\"LC\",\"Östliche Alpennordflanke (uncodiert)\":\"nicht gefährdet\",\"Östliche Zentralalpen (codiert)\":\"LC\",\"Östliche Zentralalpen (uncodiert)\":\"nicht gefährdet\",\"Östliches Mitelland (codiert)\":\"LC\",\"Östliches Mitelland (uncodiert)\":\"nicht gefährdet\",\"Schweiz (codiert)\":\"LC\",\"Schweiz (uncodiert)\":\"nicht gefährdet\",\"Ökologische Gruppe\":\"Waldpflanzen\"},\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"CH Zeigerwerte (1977)\",\"Beschreibung\":\"Landolt Elias (1977): Ökologische Zeigerwerte zur Schweizer Flora. Eigenschaften von 3341 Pflanzenarten\",\"Datenstand\":\"1977\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Reaktionszahl\":\"3  -  Mittlere Säureverhältnisse (pH 4.5 - 7.5)\",\"Nährstoffzahl\":\"3  -  Mittlere Nährstoffverhältnisse\",\"Humuszahl\":\"4  -  Humuszeiger\",\"Dispersitätszahl\":\"5  -  Sauerstoffarmutszeiger, oft Ton- oder Torfzeiger\",\"Salzzeichen\":\"– :  salzhaltige Böden meidend\",\"Lichtzahl\":\"1  -  Ausgesprochene Schattenzeiger\",\"Temperaturzahl\":\"3  -  Pflanzen der montanen Stufe, meist weit verbreitet\",\"Kontinentalitätszahl\":\"2  -  subozeanisches Klima, Spätfröste und grosse Temperaturextreme werden nicht ertragen\",\"Wuchsform\":\"Immergrüner Phanerophyt\"},\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"CH Zeigerwerte (2010)\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ökologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu Lebensräumen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen Räumen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Flora indicativa 2010 Nr\":\"1\",\"Flora alpina 2004 Nr\":\"10.1.1\",\"Flora Helvetica 2007 Nr\":\"86\",\"Zeigerwerte Landolt 1977 Nr\":\"91\",\"Verbreitungsatlas 1982 Nr\":\"83\",\"Temperaturzahl\":\"3 : montan\",\"Temperaturzahl Variationsbreite\":\"kleine Variation\",\"Kontinentalitätszahl\":\"2 : subozeanisch\",\"Kontinentalitätszahl Variationsbreite\":\"kleine Variation\",\"Lichtzahl\":\"1 : sehr schattig\",\"Lichtzahl Variationsbreite\":\"grosse Variation\",\"Feuchtezahl\":\"4 : sehr feucht\",\"Feuchtezahl Variationsbreite\":\"kleine Variation\",\"Wechselfeuchtezahl\":\"2 : Feuchte mässig wechselnd\",\"Reaktionszahl\":\"3 : schwach sauer bis neutral\",\"Reaktionszahl Variationsbreite\":\"grosse Variation\",\"Nährstoffzahl\":\"3 : mässig nährstoffarm bis nährstoffreich\",\"Nährstoffzahl Variationsbreite\":\"kleine Variation\",\"Schwermetalltoleranz\":\"m : schwermetalltolerant\",\"Humuszahl\":\"5 : hoher Humusgehalt\",\"Humuszahl Variationsbreite\":\"grosse Variation\",\"Durchlüftungszahl\":\"1 : schlechte Durchlüftung\",\"Durchlüftungszahl Variationsbreite\":\"kleine Variation\",\"Lebensform\":\"p\",\"Lebensform Phanerophyt\":true,\"Blattdauer\":\"i\",\"Blattdauer immergrün\":true,\"Wurzeltiefe\":\"> 200 cm\",\"Reserve- oder Speicherorgane\":\"Wh\",\"Speicherorgane dicke verholzte Hauptwurzel\":true,\"Konkurrenzstrategie\":\"ccc : vorwiegend Konkurrenz-Strategen\",\"Diasporenausbreitung\":\"Me\",\"Diasporenausbreitung meteorochor (grossräumig mit Wind)\":true,\"Vegetative Ausbreitung\":\"Kv\",\"Keine vegetativen Ausbreitungsorgane\":true,\"Fortpflanzungssystem\":\"mo\",\"Fortpflanzungssystem eingeschlechtig und einhäusig (monözisch)\":true,\"Maximales Alter\":\"600*\",\"Monate der Hauptblüte\":\"5\",\"Bestäubungsart\":\"an\",\"Bestäubung durch Wind (anemogam)\":true,\"Mahdverträglichkeit\":\"- : wächst kaum in Wiesen\",\"Samenüberdauerung\":\"1 : bis zu einem Jahr\",\"Dominanz im Gelände\":\"3 : in grösseren Gruppen\",\"Gift- und Heilwirkung, Essbarkeit\":\"e\",\"Essbar\":true,\"Einwanderung und invasives Verhalten\":\"I\",\"Idiochorophyt oder indigen\":true,\"Einfluss des Menschen auf Standort\":\"2 : mässig naturnah\",\"Veränderungstendenz Häufigkeit\":\"* : (dieses Zeichen ist in der Legende nicht erklärt)\",\"Taxonomische Beurteilung\":\"Das Taxon umfasst verschiedene biologische, saisonale, geographische oder standörtliche Sippen, die nach heutigem Wissen morphologisch schwierig abtrennbar sind\"},\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"ZH AP FM (2010)\",\"Beschreibung\":\"Aktionsplan Flachmoore des Kantons Zürich (2010). Eigenschaften von 728 Tierarten, 3500 Pflanzenarten, 57 Moosarten und 60 Lebensräumen. 10219 Beziehungen zwischen Tierarten und Lebensräumen. 664 Beziehungen zwischen Pflanzenarten und Lebensräumen. 79 Beziehungen zwischen Moosarten und Lebensräumen\",\"Datenstand\":\"2010\",\"Link\":\"http://www.naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Art ist relevant\":false,\"Bemerkungen\":\"Art nicht beurteilt: Waldpflanze und F<4\"},\"Nutzungsbedingungen\":\"Open Data: Die veröffentlichten Daten dürfen mit Hinweis auf die Quelle vervielfältigt, verbreitet und weiter zugänglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. Für die Richtigkeit, Genauigkeit, Zuverlässigkeit und Vollständigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung übernommen.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"ZH AP LiWa (2009)\",\"Beschreibung\":\"Aktionsplan Lichter Wald des Kantons Zürich. Eigenschaften von 51 Tierarten und 609 Pflanzenarten\",\"Datenstand\":\"2009\",\"Link\":\"http://www.naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Kategorie\":\"Baum\",\"Artwert AP LiWa\":0},\"Nutzungsbedingungen\":\"Open Data: Die veröffentlichten Daten dürfen mit Hinweis auf die Quelle vervielfältigt, verbreitet und weiter zugänglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. Für die Richtigkeit, Genauigkeit, Zuverlässigkeit und Vollständigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung übernommen.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"ZH Artwert (2000)\",\"Beschreibung\":\"Artwerte für den Kanton Zürich. Eigenschaften von 894 Tierarten und 1689 Pflanzenarten\",\"Datenstand\":\"2000\",\"Nutzungsbedingungen\":\"Open Data: Die veröffentlichten Daten dürfen mit Hinweis auf die Quelle vervielfältigt, verbreitet und weiter zugänglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. Für die Richtigkeit, Genauigkeit, Zuverlässigkeit und Vollständigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung übernommen.\",\"Link\":\"http://naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Gefährdung Europa: Beurteilung (codiert)\":\"U\",\"Gefährdung Europa: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung Europa: Punkte für den Artwert\":0,\"Gefährdung Europa: Quelle\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz\",\"Gefährdung Schweiz: Beurteilung (codiert)\":\"U\",\"Gefährdung Schweiz: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung Schweiz: Punkte für den Artwert\":0,\"Gefährdung Schweiz: Quelle\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz\",\"Gefährdung ZH: Beurteilung (codiert)\":\"U\",\"Gefährdung ZH: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung ZH: Punkte für den Artwert\":0,\"Artwert\":0,\"Bemerkungen\":\"mindestens eine der zur Berechnung notwendigen Grössen ist nicht bekannt und wurde deshalb Null gesetzt\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"ZH Artwert (2000) Beurteilungsgrundlagen\",\"Beschreibung\":\"Grundlagen, mit denen die Artwerte im Kt. Zürich berechnet wurden. Eigenschaften von 645 Tierarten und 1689 Pflanzenarten\",\"Datenstand\":\"2000\",\"Nutzungsbedingungen\":\"Open Data: Die veröffentlichten Daten dürfen mit Hinweis auf die Quelle vervielfältigt, verbreitet und weiter zugänglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. Für die Richtigkeit, Genauigkeit, Zuverlässigkeit und Vollständigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung übernommen.\",\"Link\":\"http://naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Gefährdung Nordjura: Beurteilung (codiert)\":\"U\",\"Gefährdung Nordjura: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung Nordjura: Quelle\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz\",\"Gefährdung Nordostschweiz: Beurteilung (codiert)\":\"U\",\"Gefährdung Nordostschweiz: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung Nordostschweiz: Quelle\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz\",\"Gefährdung östliches Mittelland: Beurteilung (codiert)\":\"U\",\"Gefährdung östliches Mittelland: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung östliches Mittelland: Quelle\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz\",\"Oekologische Gruppe (codiert)\":1,\"Oekologische Gruppe (uncodiert)\":\"Wasserpflanzen\",\"Vorkommen ZH (codiert)\":\"Z\",\"Vorkommen ZH (uncodiert)\":\"Vorkommen in einer ganz im Kanton Zürich liegenden Kartierfläche\",\"Haeufigkeit ZH heute (codiert)\":1,\"Haeufigkeit ZH heute (uncodiert)\":\"ausgestorben oder verschollen\",\"Haeugigkeit ZH frueher (codiert)\":5,\"Haeugigkeit ZH frueher (uncodiert)\":\"verbreitet\",\"Haeufigkeit ZH kuenftig (codiert)\":5,\"Haeufigkeit ZH kuenftig (uncodiert)\":\"verbreitet\",\"Bestandesaenderung (codiert)\":4,\"Bestandesaenderung (uncodiert)\":\"leichte Abnahme\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"ZH Artwert (aktuell)\",\"Beschreibung\":\"Artwerte für den Kanton Zürich. Eigenschaften von 1257 Tierarten und 1689 Pflanzenarten. Zusammenfassende Eigenschaftensammlung: enthält Daten von \\\"ZH Artwert (2000)\\\" und \\\"ZH Artwert aus AP Flachmoore (2009)\\\"\",\"Datenstand\":\"2009\",\"Nutzungsbedingungen\":\"Open Data: Die veröffentlichten Daten dürfen mit Hinweis auf die Quelle vervielfältigt, verbreitet und weiter zugänglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. Für die Richtigkeit, Genauigkeit, Zuverlässigkeit und Vollständigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung übernommen.\",\"Link\":\"http://naturschutz.zh.ch\",\"zusammenfassend\":true,\"Ursprungsdatensammlung\":\"ZH Artwert (2000)\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Gefährdung Europa: Beurteilung (codiert)\":\"U\",\"Gefährdung Europa: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung Europa: Punkte für den Artwert\":0,\"Gefährdung Europa: Quelle\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz\",\"Gefährdung Schweiz: Beurteilung (codiert)\":\"U\",\"Gefährdung Schweiz: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung Schweiz: Punkte für den Artwert\":0,\"Gefährdung Schweiz: Quelle\":\"Landolt Elias (1991): Gefährdung der Farn- und Blütenpflanzen in der Schweiz\",\"Gefährdung ZH: Beurteilung (codiert)\":\"U\",\"Gefährdung ZH: Beurteilung (uncodiert)\":\"potentiell gefährdet\",\"Gefährdung ZH: Punkte für den Artwert\":0,\"Artwert\":0,\"Bemerkungen\":\"mindestens eine der zur Berechnung notwendigen Grössen ist nicht bekannt und wurde deshalb Null gesetzt\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      },\n      {\n        \"Name\":\"ZH GIS\",\"Beschreibung\":\"GIS-Layer und Betrachtungsdistanzen für das Artenlistentool, Artengruppen für EvAB, im Kanton Zürich. Eigenschaften aller Arten\",\"Datenstand\":\"dauernd nachgeführt\",\"Link\":\"http://www.naturschutz.zh.ch\",\"Eigenschaften\":{\"GIS-Layer\":\"Flora\",\"Artengruppen-ID in EvAB\":18,\"Betrachtungsdistanz (m)\":500},\"Nutzungsbedingungen\":\"Open Data: Die veröffentlichten Daten dürfen mit Hinweis auf die Quelle vervielfältigt, verbreitet und weiter zugänglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. Für die Richtigkeit, Genauigkeit, Zuverlässigkeit und Vollständigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung übernommen.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n      }\n    ],\n    \"Beziehungssammlungen\": [\n      {\n        \"Name\":\"CH Zeigerwerte (2010): Art kommt in geographischem Raum vor\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ökologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu Lebensräumen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen Räumen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"Art der Beziehungen\":\"Art kommt in geographischem Raum vor\",\"importiert von\":\"alex@gabriel-software.ch\",\"Beziehungen\":[{\"Beziehungspartner\":[{\"Gruppe\":\"Lebensräume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Geographische Gesamtverbreitung\",\"Name\":\"E1: Central and South European mountains\",\"GUID\":\"7C80A6ED-3F74-4D03-832E-EF209ED5516A\"}]}],\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n        },\n        {\n          \"Name\":\"CH Zeigerwerte (2010): Art kommt in Lebensraum vor\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ökologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu Lebensräumen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen Räumen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"Art der Beziehungen\":\"Art kommt in Lebensraum vor\",\"importiert von\":\"alex@gabriel-software.ch\",\"Beziehungen\":[{\"Beziehungspartner\":[{\"Gruppe\":\"Lebensräume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Lebensräume\",\"Name\":\"2.9: Cultivated plants\",\"GUID\":\"2451F460-C051-4454-A814-FA1C6DA4269E\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"Lebensräume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Lebensräume\",\"Name\":\"9.1: Coniferous forests\",\"GUID\":\"B7E82143-04F5-4E5B-990E-03619E0368C7\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"Lebensräume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Lebensräume\",\"Name\":\"9.2: Mesophyllous deciduous forests\",\"GUID\":\"53020563-49CA-4C01-A9DF-DA48451391B6\"}]}],\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Zeigerwerte (2010): Art kommt in Pflanzengesellschaft vor\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ökologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu Lebensräumen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen Räumen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"Art der Beziehungen\":\"Art kommt in Pflanzengesellschaft vor\",\"importiert von\":\"alex@gabriel-software.ch\",\"Beziehungen\":[{\"Beziehungspartner\":[{\"Gruppe\":\"Lebensräume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Pflanzengesellschaften\",\"Name\":\"14.2: Erico-Pinetea Horvat 1959\",\"GUID\":\"94724BE3-2CD7-41A3-9BC0-F678AF39338A\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"Lebensräume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Pflanzengesellschaften\",\"Name\":\"14.31: Piceetalia excelsae Pawlowski in Pawlowski, Sokolowski & Wallisch 1928\",\"GUID\":\"E1021BF5-896C-4C15-9751-3A10A4E70083\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"Lebensräume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Pflanzengesellschaften\",\"Name\":\"14.731: Fagion sylvaticae Luquet 1926\",\"GUID\":\"01171D93-2255-4CE0-866E-A86CA511CE57\"}]}],\"Nutzungsbedingungen\":\"Importiert mit Einverständnis des Autors. Eine allfällige Weiterverbreitung ist nur mit dessen Zustimmung möglich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"}],\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n    }\n  }",
-			"settings":
-			{
-				"buffer_size": 21613,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "{\n  \"_id\":\"1AB6BBB1-979A-4232-A5D8-62EFB5CB984A\",\n  \"_rev\":\"53-24b213247fc7a0ec2f2db7b212b716d9\",\n  \"Gruppe\":\"Flora\",\n  \"Typ\":\"Objekt\",\n  \"Eigenschaftensammlungen\":[{\"Name\":\"CH Rote Liste (aktuell)\",\"Beschreibung\":\"Zusammenfassung aller Roten Listen aus allen Artgruppen (pro Art jeweils die neusten Informationen)\",\"Datenstand\":\"20.05.2014\",\"Link\":\"http://www.bafu.admin.ch/biodiversitaet/10372/10393/index.html?lang=de\",\"zusammenfassend\":true,\"Ursprungsdatensammlung\":\"CH Rote Liste Flora (2002)\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Rote-Liste-Nr\":1,\"Alpennordflanke (codiert)\":\"LC\",\"Alpennordflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"AlpensÃ¼dflanke (codiert)\":\"LC\",\"AlpensÃ¼dflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Bergell (codiert)\":\"LC\",\"Bergell (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Jura (codiert)\":\"LC\",\"Jura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Mittelland (codiert)\":\"LC\",\"Mittelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"MÃ¼nstertal (codiert)\":\"LC\",\"MÃ¼nstertal (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Schaffhauser Jura (codiert)\":\"LC\",\"Schaffhauser Jura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Tessin (codiert)\":\"LC\",\"Tessin (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Wallis (codiert)\":\"LC\",\"Wallis (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliche Alpennordflanke (codiert)\":\"LC\",\"Westliche Alpennordflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliches Jura (codiert)\":\"LC\",\"Westliches Jura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliches Mittelland (codiert)\":\"LC\",\"Westliches Mittelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliche Alpennordflanke (codiert)\":\"LC\",\"Ã–stliche Alpennordflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliche Zentralalpen (codiert)\":\"LC\",\"Ã–stliche Zentralalpen (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliches Mitelland (codiert)\":\"LC\",\"Ã–stliches Mitelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Schweiz (codiert)\":\"LC\",\"Schweiz (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–kologische Gruppe\":\"Waldpflanzen\"},\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Rote Liste Flora (1991)\",\"Beschreibung\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz. Eigenschaften von 2661 Pflanzenarten\",\"Datenstand\":\"1991\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Europa (codiert)\":\"U\",\"Europa (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Nordjura (codiert)\":\"U\",\"Nordjura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Nordostschweiz (codiert)\":\"U\",\"Nordostschweiz (uncodiert)\":\"nicht gefÃ¤hrdet\",\"SÃ¼dalpen (codiert)\":\"U\",\"SÃ¼dalpen (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westjura (codiert)\":\"U\",\"Westjura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliche Nordalpen (codiert)\":\"U\",\"Westliche Nordalpen (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliche Zentralalpen (codiert)\":\"U\",\"Westliche Zentralalpen (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliches Mittelland (codiert)\":\"U\",\"Westliches Mittelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliche Nordalpen (codiert)\":\"U\",\"Ã–stliche Nordalpen (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliche Zentralalpen (codiert)\":\"U\",\"Ã–stliche Zentralalpen (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliches Mittelland (codiert)\":\"U\",\"Ã–stliches Mittelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Schweiz (codiert)\":\"U\",\"Schweiz (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Lebensraum\":\"Waldpflanzen\"},\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Rote Liste Flora (2002)\",\"Beschreibung\":\"BAFU (2002): Rote Liste der gefÃ¤hrdeten Farn- und BlÃ¼tenpflanzen der Schweiz. Eigenschaften von 3090 Pflanzenarten\",\"Datenstand\":\"2002\",\"Link\":\"http://www.bafu.admin.ch/publikationen/publikation/00911/index.html?lang=de&download=NHzLpZig7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGdoF3hGym162dpYbUzd,Gpd6emK2Oz9aGodetmqaN19XI2IdvoaCVZ,s-.pdf\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Rote-Liste-Nr\":1,\"Alpennordflanke (codiert)\":\"LC\",\"Alpennordflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"AlpensÃ¼dflanke (codiert)\":\"LC\",\"AlpensÃ¼dflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Bergell (codiert)\":\"LC\",\"Bergell (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Jura (codiert)\":\"LC\",\"Jura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Mittelland (codiert)\":\"LC\",\"Mittelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"MÃ¼nstertal (codiert)\":\"LC\",\"MÃ¼nstertal (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Schaffhauser Jura (codiert)\":\"LC\",\"Schaffhauser Jura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Tessin (codiert)\":\"LC\",\"Tessin (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Wallis (codiert)\":\"LC\",\"Wallis (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliche Alpennordflanke (codiert)\":\"LC\",\"Westliche Alpennordflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliches Jura (codiert)\":\"LC\",\"Westliches Jura (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Westliches Mittelland (codiert)\":\"LC\",\"Westliches Mittelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliche Alpennordflanke (codiert)\":\"LC\",\"Ã–stliche Alpennordflanke (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliche Zentralalpen (codiert)\":\"LC\",\"Ã–stliche Zentralalpen (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–stliches Mitelland (codiert)\":\"LC\",\"Ã–stliches Mitelland (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Schweiz (codiert)\":\"LC\",\"Schweiz (uncodiert)\":\"nicht gefÃ¤hrdet\",\"Ã–kologische Gruppe\":\"Waldpflanzen\"},\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Zeigerwerte (1977)\",\"Beschreibung\":\"Landolt Elias (1977): Ã–kologische Zeigerwerte zur Schweizer Flora. Eigenschaften von 3341 Pflanzenarten\",\"Datenstand\":\"1977\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Reaktionszahl\":\"3  -  Mittlere SÃ¤ureverhÃ¤ltnisse (pH 4.5 - 7.5)\",\"NÃ¤hrstoffzahl\":\"3  -  Mittlere NÃ¤hrstoffverhÃ¤ltnisse\",\"Humuszahl\":\"4  -  Humuszeiger\",\"DispersitÃ¤tszahl\":\"5  -  Sauerstoffarmutszeiger, oft Ton- oder Torfzeiger\",\"Salzzeichen\":\"â€“ :  salzhaltige BÃ¶den meidend\",\"Lichtzahl\":\"1  -  Ausgesprochene Schattenzeiger\",\"Temperaturzahl\":\"3  -  Pflanzen der montanen Stufe, meist weit verbreitet\",\"KontinentalitÃ¤tszahl\":\"2  -  subozeanisches Klima, SpÃ¤tfrÃ¶ste und grosse Temperaturextreme werden nicht ertragen\",\"Wuchsform\":\"ImmergrÃ¼ner Phanerophyt\"},\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Zeigerwerte (2010)\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ã–kologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu LebensrÃ¤umen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen RÃ¤umen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Flora indicativa 2010 Nr\":\"1\",\"Flora alpina 2004 Nr\":\"10.1.1\",\"Flora Helvetica 2007 Nr\":\"86\",\"Zeigerwerte Landolt 1977 Nr\":\"91\",\"Verbreitungsatlas 1982 Nr\":\"83\",\"Temperaturzahl\":\"3 : montan\",\"Temperaturzahl Variationsbreite\":\"kleine Variation\",\"KontinentalitÃ¤tszahl\":\"2 : subozeanisch\",\"KontinentalitÃ¤tszahl Variationsbreite\":\"kleine Variation\",\"Lichtzahl\":\"1 : sehr schattig\",\"Lichtzahl Variationsbreite\":\"grosse Variation\",\"Feuchtezahl\":\"4 : sehr feucht\",\"Feuchtezahl Variationsbreite\":\"kleine Variation\",\"Wechselfeuchtezahl\":\"2 : Feuchte mÃ¤ssig wechselnd\",\"Reaktionszahl\":\"3 : schwach sauer bis neutral\",\"Reaktionszahl Variationsbreite\":\"grosse Variation\",\"NÃ¤hrstoffzahl\":\"3 : mÃ¤ssig nÃ¤hrstoffarm bis nÃ¤hrstoffreich\",\"NÃ¤hrstoffzahl Variationsbreite\":\"kleine Variation\",\"Schwermetalltoleranz\":\"m : schwermetalltolerant\",\"Humuszahl\":\"5 : hoher Humusgehalt\",\"Humuszahl Variationsbreite\":\"grosse Variation\",\"DurchlÃ¼ftungszahl\":\"1 : schlechte DurchlÃ¼ftung\",\"DurchlÃ¼ftungszahl Variationsbreite\":\"kleine Variation\",\"Lebensform\":\"p\",\"Lebensform Phanerophyt\":true,\"Blattdauer\":\"i\",\"Blattdauer immergrÃ¼n\":true,\"Wurzeltiefe\":\"> 200 cm\",\"Reserve- oder Speicherorgane\":\"Wh\",\"Speicherorgane dicke verholzte Hauptwurzel\":true,\"Konkurrenzstrategie\":\"ccc : vorwiegend Konkurrenz-Strategen\",\"Diasporenausbreitung\":\"Me\",\"Diasporenausbreitung meteorochor (grossrÃ¤umig mit Wind)\":true,\"Vegetative Ausbreitung\":\"Kv\",\"Keine vegetativen Ausbreitungsorgane\":true,\"Fortpflanzungssystem\":\"mo\",\"Fortpflanzungssystem eingeschlechtig und einhÃ¤usig (monÃ¶zisch)\":true,\"Maximales Alter\":\"600*\",\"Monate der HauptblÃ¼te\":\"5\",\"BestÃ¤ubungsart\":\"an\",\"BestÃ¤ubung durch Wind (anemogam)\":true,\"MahdvertrÃ¤glichkeit\":\"- : wÃ¤chst kaum in Wiesen\",\"SamenÃ¼berdauerung\":\"1 : bis zu einem Jahr\",\"Dominanz im GelÃ¤nde\":\"3 : in grÃ¶sseren Gruppen\",\"Gift- und Heilwirkung, Essbarkeit\":\"e\",\"Essbar\":true,\"Einwanderung und invasives Verhalten\":\"I\",\"Idiochorophyt oder indigen\":true,\"Einfluss des Menschen auf Standort\":\"2 : mÃ¤ssig naturnah\",\"VerÃ¤nderungstendenz HÃ¤ufigkeit\":\"* : (dieses Zeichen ist in der Legende nicht erklÃ¤rt)\",\"Taxonomische Beurteilung\":\"Das Taxon umfasst verschiedene biologische, saisonale, geographische oder standÃ¶rtliche Sippen, die nach heutigem Wissen morphologisch schwierig abtrennbar sind\"},\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"ZH AP FM (2010)\",\"Beschreibung\":\"Aktionsplan Flachmoore des Kantons ZÃ¼rich (2010). Eigenschaften von 728 Tierarten, 3500 Pflanzenarten, 57 Moosarten und 60 LebensrÃ¤umen. 10219 Beziehungen zwischen Tierarten und LebensrÃ¤umen. 664 Beziehungen zwischen Pflanzenarten und LebensrÃ¤umen. 79 Beziehungen zwischen Moosarten und LebensrÃ¤umen\",\"Datenstand\":\"2010\",\"Link\":\"http://www.naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Art ist relevant\":false,\"Bemerkungen\":\"Art nicht beurteilt: Waldpflanze und F<4\"},\"Nutzungsbedingungen\":\"Open Data: Die verÃ¶ffentlichten Daten dÃ¼rfen mit Hinweis auf die Quelle vervielfÃ¤ltigt, verbreitet und weiter zugÃ¤nglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. FÃ¼r die Richtigkeit, Genauigkeit, ZuverlÃ¤ssigkeit und VollstÃ¤ndigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung Ã¼bernommen.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"ZH AP LiWa (2009)\",\"Beschreibung\":\"Aktionsplan Lichter Wald des Kantons ZÃ¼rich. Eigenschaften von 51 Tierarten und 609 Pflanzenarten\",\"Datenstand\":\"2009\",\"Link\":\"http://www.naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"Kategorie\":\"Baum\",\"Artwert AP LiWa\":0},\"Nutzungsbedingungen\":\"Open Data: Die verÃ¶ffentlichten Daten dÃ¼rfen mit Hinweis auf die Quelle vervielfÃ¤ltigt, verbreitet und weiter zugÃ¤nglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. FÃ¼r die Richtigkeit, Genauigkeit, ZuverlÃ¤ssigkeit und VollstÃ¤ndigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung Ã¼bernommen.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"ZH Artwert (2000)\",\"Beschreibung\":\"Artwerte fÃ¼r den Kanton ZÃ¼rich. Eigenschaften von 894 Tierarten und 1689 Pflanzenarten\",\"Datenstand\":\"2000\",\"Nutzungsbedingungen\":\"Open Data: Die verÃ¶ffentlichten Daten dÃ¼rfen mit Hinweis auf die Quelle vervielfÃ¤ltigt, verbreitet und weiter zugÃ¤nglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. FÃ¼r die Richtigkeit, Genauigkeit, ZuverlÃ¤ssigkeit und VollstÃ¤ndigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung Ã¼bernommen.\",\"Link\":\"http://naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"GefÃ¤hrdung Europa: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung Europa: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung Europa: Punkte fÃ¼r den Artwert\":0,\"GefÃ¤hrdung Europa: Quelle\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz\",\"GefÃ¤hrdung Schweiz: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung Schweiz: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung Schweiz: Punkte fÃ¼r den Artwert\":0,\"GefÃ¤hrdung Schweiz: Quelle\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz\",\"GefÃ¤hrdung ZH: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung ZH: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung ZH: Punkte fÃ¼r den Artwert\":0,\"Artwert\":0,\"Bemerkungen\":\"mindestens eine der zur Berechnung notwendigen GrÃ¶ssen ist nicht bekannt und wurde deshalb Null gesetzt\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"ZH Artwert (2000) Beurteilungsgrundlagen\",\"Beschreibung\":\"Grundlagen, mit denen die Artwerte im Kt. ZÃ¼rich berechnet wurden. Eigenschaften von 645 Tierarten und 1689 Pflanzenarten\",\"Datenstand\":\"2000\",\"Nutzungsbedingungen\":\"Open Data: Die verÃ¶ffentlichten Daten dÃ¼rfen mit Hinweis auf die Quelle vervielfÃ¤ltigt, verbreitet und weiter zugÃ¤nglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. FÃ¼r die Richtigkeit, Genauigkeit, ZuverlÃ¤ssigkeit und VollstÃ¤ndigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung Ã¼bernommen.\",\"Link\":\"http://naturschutz.zh.ch\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"GefÃ¤hrdung Nordjura: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung Nordjura: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung Nordjura: Quelle\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz\",\"GefÃ¤hrdung Nordostschweiz: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung Nordostschweiz: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung Nordostschweiz: Quelle\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz\",\"GefÃ¤hrdung Ã¶stliches Mittelland: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung Ã¶stliches Mittelland: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung Ã¶stliches Mittelland: Quelle\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz\",\"Oekologische Gruppe (codiert)\":1,\"Oekologische Gruppe (uncodiert)\":\"Wasserpflanzen\",\"Vorkommen ZH (codiert)\":\"Z\",\"Vorkommen ZH (uncodiert)\":\"Vorkommen in einer ganz im Kanton ZÃ¼rich liegenden KartierflÃ¤che\",\"Haeufigkeit ZH heute (codiert)\":1,\"Haeufigkeit ZH heute (uncodiert)\":\"ausgestorben oder verschollen\",\"Haeugigkeit ZH frueher (codiert)\":5,\"Haeugigkeit ZH frueher (uncodiert)\":\"verbreitet\",\"Haeufigkeit ZH kuenftig (codiert)\":5,\"Haeufigkeit ZH kuenftig (uncodiert)\":\"verbreitet\",\"Bestandesaenderung (codiert)\":4,\"Bestandesaenderung (uncodiert)\":\"leichte Abnahme\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"ZH Artwert (aktuell)\",\"Beschreibung\":\"Artwerte fÃ¼r den Kanton ZÃ¼rich. Eigenschaften von 1257 Tierarten und 1689 Pflanzenarten. Zusammenfassende Eigenschaftensammlung: enthÃ¤lt Daten von \\\"ZH Artwert (2000)\\\" und \\\"ZH Artwert aus AP Flachmoore (2009)\\\"\",\"Datenstand\":\"2009\",\"Nutzungsbedingungen\":\"Open Data: Die verÃ¶ffentlichten Daten dÃ¼rfen mit Hinweis auf die Quelle vervielfÃ¤ltigt, verbreitet und weiter zugÃ¤nglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. FÃ¼r die Richtigkeit, Genauigkeit, ZuverlÃ¤ssigkeit und VollstÃ¤ndigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung Ã¼bernommen.\",\"Link\":\"http://naturschutz.zh.ch\",\"zusammenfassend\":true,\"Ursprungsdatensammlung\":\"ZH Artwert (2000)\",\"importiert von\":\"alex@gabriel-software.ch\",\"Eigenschaften\":{\"GefÃ¤hrdung Europa: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung Europa: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung Europa: Punkte fÃ¼r den Artwert\":0,\"GefÃ¤hrdung Europa: Quelle\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz\",\"GefÃ¤hrdung Schweiz: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung Schweiz: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung Schweiz: Punkte fÃ¼r den Artwert\":0,\"GefÃ¤hrdung Schweiz: Quelle\":\"Landolt Elias (1991): GefÃ¤hrdung der Farn- und BlÃ¼tenpflanzen in der Schweiz\",\"GefÃ¤hrdung ZH: Beurteilung (codiert)\":\"U\",\"GefÃ¤hrdung ZH: Beurteilung (uncodiert)\":\"potentiell gefÃ¤hrdet\",\"GefÃ¤hrdung ZH: Punkte fÃ¼r den Artwert\":0,\"Artwert\":0,\"Bemerkungen\":\"mindestens eine der zur Berechnung notwendigen GrÃ¶ssen ist nicht bekannt und wurde deshalb Null gesetzt\"},\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"ZH GIS\",\"Beschreibung\":\"GIS-Layer und Betrachtungsdistanzen fÃ¼r das Artenlistentool, Artengruppen fÃ¼r EvAB, im Kanton ZÃ¼rich. Eigenschaften aller Arten\",\"Datenstand\":\"dauernd nachgefÃ¼hrt\",\"Link\":\"http://www.naturschutz.zh.ch\",\"Eigenschaften\":{\"GIS-Layer\":\"Flora\",\"Artengruppen-ID in EvAB\":18,\"Betrachtungsdistanz (m)\":500},\"Nutzungsbedingungen\":\"Open Data: Die verÃ¶ffentlichten Daten dÃ¼rfen mit Hinweis auf die Quelle vervielfÃ¤ltigt, verbreitet und weiter zugÃ¤nglich gemacht, angereichert und bearbeitet sowie kommerziell genutzt werden. FÃ¼r die Richtigkeit, Genauigkeit, ZuverlÃ¤ssigkeit und VollstÃ¤ndigkeit der bezogenen, ebenso wie der daraus erzeugten Daten und anderer mit Hilfe dieser Daten hergestellten Produkte wird indessen keine Haftung Ã¼bernommen.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"}],\"Beziehungssammlungen\":[{\"Name\":\"CH Zeigerwerte (2010): Art kommt in geographischem Raum vor\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ã–kologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu LebensrÃ¤umen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen RÃ¤umen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"Art der Beziehungen\":\"Art kommt in geographischem Raum vor\",\"importiert von\":\"alex@gabriel-software.ch\",\"Beziehungen\":[{\"Beziehungspartner\":[{\"Gruppe\":\"LebensrÃ¤ume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Geographische Gesamtverbreitung\",\"Name\":\"E1: Central and South European mountains\",\"GUID\":\"7C80A6ED-3F74-4D03-832E-EF209ED5516A\"}]}],\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Zeigerwerte (2010): Art kommt in Lebensraum vor\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ã–kologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu LebensrÃ¤umen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen RÃ¤umen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"Art der Beziehungen\":\"Art kommt in Lebensraum vor\",\"importiert von\":\"alex@gabriel-software.ch\",\"Beziehungen\":[{\"Beziehungspartner\":[{\"Gruppe\":\"LebensrÃ¤ume\",\"Taxonomie\":\"CH Flora Indicativa (2010): LebensrÃ¤ume\",\"Name\":\"2.9: Cultivated plants\",\"GUID\":\"2451F460-C051-4454-A814-FA1C6DA4269E\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"LebensrÃ¤ume\",\"Taxonomie\":\"CH Flora Indicativa (2010): LebensrÃ¤ume\",\"Name\":\"9.1: Coniferous forests\",\"GUID\":\"B7E82143-04F5-4E5B-990E-03619E0368C7\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"LebensrÃ¤ume\",\"Taxonomie\":\"CH Flora Indicativa (2010): LebensrÃ¤ume\",\"Name\":\"9.2: Mesophyllous deciduous forests\",\"GUID\":\"53020563-49CA-4C01-A9DF-DA48451391B6\"}]}],\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"},{\"Name\":\"CH Zeigerwerte (2010): Art kommt in Pflanzengesellschaft vor\",\"Beschreibung\":\"Landolt Elias u.a. (2011): Flora indicativa 2010. Ã–kologische Zeigerwerte und biologische Kennzeichen zur Flora der Schweiz und der Alpen. Eigenschaften von 6472 Pflanzenarten. 17576 Beziehungen zu LebensrÃ¤umen, 7442 Beziehungen zu Pflanzengesellschaften und 6470 Beziehungen zu geografischen RÃ¤umen\",\"Datenstand\":\"2011\",\"Link\":\"http://www.wsl.ch/floraindicativa/index_DE\",\"Art der Beziehungen\":\"Art kommt in Pflanzengesellschaft vor\",\"importiert von\":\"alex@gabriel-software.ch\",\"Beziehungen\":[{\"Beziehungspartner\":[{\"Gruppe\":\"LebensrÃ¤ume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Pflanzengesellschaften\",\"Name\":\"14.2: Erico-Pinetea Horvat 1959\",\"GUID\":\"94724BE3-2CD7-41A3-9BC0-F678AF39338A\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"LebensrÃ¤ume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Pflanzengesellschaften\",\"Name\":\"14.31: Piceetalia excelsae Pawlowski in Pawlowski, Sokolowski & Wallisch 1928\",\"GUID\":\"E1021BF5-896C-4C15-9751-3A10A4E70083\"}]},{\"Beziehungspartner\":[{\"Gruppe\":\"LebensrÃ¤ume\",\"Taxonomie\":\"CH Flora Indicativa (2010): Pflanzengesellschaften\",\"Name\":\"14.731: Fagion sylvaticae Luquet 1926\",\"GUID\":\"01171D93-2255-4CE0-866E-A86CA511CE57\"}]}],\"Nutzungsbedingungen\":\"Importiert mit EinverstÃ¤ndnis des Autors. Eine allfÃ¤llige Weiterverbreitung ist nur mit dessen Zustimmung mÃ¶glich.\",\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"}],\"Organisation mit Schreibrecht\":\"FNS Kt. ZH\"\n  }",
-			"settings":
-			{
-				"buffer_size": 21442,
+				"buffer_size": 1835,
 				"line_ending": "Windows"
 			}
 		}
@@ -219,16 +158,18 @@
 	"expanded_folders":
 	[
 		"/C/Users/alex/ae_views",
-		"/C/Users/alex/ae_views/createDDocs",
-		"/C/Users/alex/ae_views/filters",
-		"/C/Users/alex/ae_views/lists",
 		"/C/Users/alex/ae_views/views"
 	],
 	"file_history":
 	[
-		"/C/Users/alex/ae_views/.eslintrc.json",
+		"/C/Users/alex/ae_views/views/floraBySisf2TaxId.js",
 		"/C/Users/alex/ae_views/createDDocs/floraBySisf2TaxId.js",
+		"/C/Users/alex/ae_views/lists/floraBySisf2TaxId.js",
+		"/C/Users/alex/ae_views/lists/.eslintrc.json",
 		"/C/Users/alex/ae_views/views/.eslintrc.json",
+		"/C/Users/alex/ae_views/filters/.eslintrc.json",
+		"/C/Users/alex/ae_views/index.js",
+		"/C/Users/alex/ae_views/.eslintrc.json",
 		"/C/Users/alex/ae_views/views/floraById_old.js",
 		"/C/Users/alex/ae_views/views/floraById.js",
 		"/C/Users/alex/ae_views/views/faunaById.js",
@@ -344,6 +285,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"{\"id\"",
 			"eslintrc.json",
 			"Name",
 			"_id",
@@ -468,11 +410,39 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "/D/Google Drive/artendb/push.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6391,
+								6294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7263.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
@@ -484,8 +454,8 @@
 						"selection":
 						[
 							[
-								182,
-								182
+								204,
+								204
 							]
 						],
 						"settings":
@@ -498,84 +468,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5198,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5080,
-								5101
-							]
-						],
-						"settings":
-						{
-							"auto_name": "> eslint --debug ./views/faunaById.js",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1530.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "index.js",
+					"file": "views/tOByTaxonomy.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2067,
+						"buffer_size": 334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "lists/objectByTaxonomy.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 70,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								70
+								301,
+								301
 							]
 						],
 						"settings":
@@ -586,11 +496,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "createDDocs/tOByTaxonomy.js",
 					"semi_transient": false,
 					"settings":
@@ -602,71 +512,12 @@
 						"selection":
 						[
 							[
-								361,
-								295
+								296,
+								296
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "views/floraBySisf2TaxId.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 399,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								315,
-								315
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "createDDocs/floraBySisf2TaxId.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								362,
-								383
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -677,196 +528,47 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "lists/floraBySisf2TaxId.js",
+					"buffer": 4,
+					"file": "lists/objectByTaxonomy.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 571,
+						"buffer_size": 828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								776,
+								776
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "lists/.eslintrc.json",
+					"buffer": 5,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 248,
+						"buffer_size": 4123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "views/.eslintrc.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								93
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "filters/.eslintrc.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								93
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 200,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								200,
-								92
-							]
-						],
-						"settings":
-						{
-							"auto_name": "localhost:5984/artendb/_design/floraBySisf2TaxId/_",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21613,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21371,
-								21371
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21442,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								138,
-								138
+								792,
+								792
 							]
 						],
 						"settings":
@@ -877,7 +579,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
